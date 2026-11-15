@@ -290,6 +290,14 @@ function openItem(id){
   $('modal').classList.add('open'); document.body.classList.add('locked');
   $('modal').scrollTop=0; document.title=L(it.titulo)+' · '+(lang==='ru'?'Распродажа':'Vendo todo');
   $('mclose').focus({preventScroll:true});
+  if(lastView!==it.id){lastView=it.id;gc({path:'item-'+it.id,title:it.titulo.es,event:true})}
+}
+// GoatCounter: просмотры карточек и нажатия кнопок как события (localhost не считается)
+var lastView='';
+function gc(o){
+  var g=window.goatcounter;
+  if(g&&g.count){g.count(o);return}
+  if(document.readyState!=='complete') window.addEventListener('load',function(){var g=window.goatcounter;if(g&&g.count)g.count(o)},{once:true});
 }
 function closeModal(fromHash){
   $('modal').classList.remove('open'); document.body.classList.remove('locked');
@@ -306,7 +314,10 @@ document.addEventListener('click',function(e){
   if(b){lang=b.dataset.lang;try{localStorage.setItem('lang',lang)}catch(x){}render();return}
   var c=e.target.closest('.chip');
   if(c){cat=c.dataset.cat;renderChips();renderGrid();return}
-  if(e.target.closest('.wa,.tg,.arrow')) return;
+  var m=e.target.closest('.wa,.tg');
+  if(m){var it=find(m.closest('.card')?m.closest('.card').dataset.id:curHash());
+    if(it) gc({path:(m.classList.contains('wa')?'click-whatsapp-':'click-telegram-')+it.id,title:it.titulo.es,event:true});return}
+  if(e.target.closest('.arrow')) return;
   var card=e.target.closest('.card');
   if(card){openedHere=true;location.hash=card.dataset.id;return}
 });
@@ -332,5 +343,6 @@ fetch('items.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(f
   .catch(function(){$('grid').innerHTML='<p class="empty">Error al cargar la lista. Recargá la página.</p>'});
 })();
 </script>
+<script data-goatcounter="https://venta-mudanza.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
