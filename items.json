@@ -1,0 +1,245 @@
+{
+  "config": {
+    "whatsapp": "549XXXXXXXXXX",
+    "actualizado": "2026-11-15"
+  },
+  "categorias": [
+    { "id": "bebe", "es": "Bebés y niños", "ru": "Детское" },
+    { "id": "electro", "es": "Electrodomésticos", "ru": "Бытовая техника" },
+    { "id": "cocina", "es": "Cocina", "ru": "Кухня" },
+    { "id": "herramientas", "es": "Herramientas", "ru": "Инструменты" },
+    { "id": "electronica", "es": "Electrónica", "ru": "Электроника" },
+    { "id": "deportes", "es": "Deportes", "ru": "Спорт" }
+  ],
+  "items": [
+    {
+      "id": "05", "cat": "bebe", "precio": 240000, "status": "disponible", "fotos": 11, "visible": true,
+      "titulo": { "es": "Cochecito Carestino London 3 en 1 con moisés y huevito", "ru": "Коляска Carestino London 3 в 1 с люлькой и автокреслом" },
+      "estado": { "es": "Buen estado", "ru": "Хорошее" },
+      "desc": {
+        "es": "Cochecito Carestino London 3 en 1: asiento, moisés y huevito, las tres partes completas. Incluye cobertor de lluvia. Buen estado: tiene señales de uso, nada que afecte su funcionamiento.",
+        "ru": "Коляска 3 в 1 Carestino London: прогулочный блок, люлька и автокресло-переноска, все три части на месте. В комплекте дождевик. Состояние хорошее: есть следы использования, на работу ничего не влияет."
+      }
+    },
+    {
+      "id": "22", "cat": "bebe", "precio": 70000, "status": "disponible", "fotos": 1, "visible": true,
+      "titulo": { "es": "Set de psicomotricidad: escalera de 3 escalones + rampa", "ru": "Мягкие модули: лесенка из 3 ступеней + горка" },
+      "estado": { "es": "Muy buen estado", "ru": "Хорошее" },
+      "desc": {
+        "es": "Set de dos módulos blandos de goma espuma: escalera de tres escalones (rosa terracota) y rampa (superficie turquesa, laterales beige). Muy buen estado.",
+        "ru": "Набор из двух мягких модулей: трёхступенчатая лесенка (терракотово-розовая) и наклонная горка (бирюзовый верх, бежевые боковины). Состояние хорошее."
+      }
+    },
+    {
+      "id": "57", "cat": "bebe", "precio": 60000, "status": "disponible", "fotos": 3, "visible": true,
+      "titulo": { "es": "3 mamaderas Dr. Brown's Options+ 270 ml, nuevas", "ru": "3 новые бутылочки Dr. Brown's Options+ 270 мл" },
+      "estado": { "es": "Nuevo", "ru": "Новое" },
+      "nota": { "es": "Precio por las tres", "ru": "Цена за все три" },
+      "desc": {
+        "es": "Tres mamaderas Dr. Brown's Natural Flow Options+ de 270 ml, boca ancha, nuevas y sin uso, en su caja original. Sistema de ventilación anti-cólicos, se pueden usar con o sin él. Las tres con tetina nivel 1 (0m+). Incluye una tetina de repuesto nivel 1, una nivel 2 (3m+) y un cepillo para limpiar el sistema de ventilación. Sin BPA.",
+        "ru": "Три новые бутылочки Dr. Brown's Natural Flow Options+ по 270 мл с широким горлом, в оригинальной коробке, не использовались. Антиколиковая система вентиляции, можно пользоваться и без неё. На всех трёх соски уровня 1 (0+ мес.). В комплекте запасные соски уровня 1 и уровня 2 (3+ мес.) по одной и ёршик для чистки трубок. Без BPA."
+      }
+    },
+    {
+      "id": "12", "cat": "bebe", "precio": 50000, "status": "disponible", "fotos": 3, "visible": true,
+      "titulo": { "es": "Silla de comer Mega Baby Roma, plegable y reclinable", "ru": "Складной стульчик для кормления Mega Baby Roma" },
+      "estado": { "es": "Buen estado", "ru": "Хорошее" },
+      "desc": {
+        "es": "Silla de comer plegable, con altura regulable y respaldo reclinable. Buen estado, con señales de uso.",
+        "ru": "Складной стульчик для кормления: регулируемая высота, откидная спинка. Состояние хорошее, есть следы использования."
+      }
+    },
+    {
+      "id": "18", "cat": "bebe", "precio": 35000, "status": "disponible", "fotos": 3, "visible": true,
+      "titulo": { "es": "Bañera plegable para bebé Carestino", "ru": "Складная детская ванночка Carestino" },
+      "estado": { "es": "Con detalles de uso", "ru": "Следы использования" },
+      "desc": {
+        "es": "Bañera plegable Carestino, versión anterior, similar a la actual Bañera Plegable con Soporte Aguamarina. Tiene señales de uso que no afectan su funcionamiento.",
+        "ru": "Складная детская ванночка Carestino предыдущей модели, похожа на нынешнюю Bañera Plegable con Soporte Aguamarina. Есть следы использования, на функциональность не влияют."
+      }
+    },
+    {
+      "id": "10", "cat": "bebe", "precio": 20000, "status": "disponible", "fotos": 2, "visible": true,
+      "titulo": { "es": "Pelela Love 3 en 1 rosa con reductor y banquito", "ru": "Розовый горшок Love 3 в 1 с накладкой и ступенькой" },
+      "estado": { "es": "Casi sin uso", "ru": "Почти не использовался" },
+      "desc": {
+        "es": "Pelela, reductor de inodoro y banquito; depósito desmontable. Casi sin uso, muy buen estado.",
+        "ru": "Горшок, накладка на унитаз и подставка-ступенька, съёмный контейнер. Почти не использовался, состояние хорошее."
+      }
+    },
+    {
+      "id": "ropa", "cat": "bebe", "precio": 35000, "status": "disponible", "fotos": 0, "visible": true,
+      "titulo": { "es": "Lote de ropa de bebé (6–9 meses)", "ru": "Лот детской одежды (6–9 мес.)" },
+      "estado": { "es": "Buen estado", "ru": "Хорошее" },
+      "nota": { "es": "Precio por todo el lote", "ru": "Цена за весь лот" },
+      "desc": {
+        "es": "Enterito térmico talle 74, Carter's 9 meses, pijama H&M talle 74 y zapatitos de 12,5 cm.",
+        "ru": "Тёплый комбинезон размер 74, Carter's на 9 месяцев, пижама H&M размер 74 и пинетки 12,5 см."
+      }
+    },
+    {
+      "id": "15", "cat": "bebe", "precio": 90000, "status": "disponible", "fotos": 2, "visible": true,
+      "titulo": { "es": "Corralito 150 × 150 cm + juguetes y alfombra de regalo", "ru": "Манеж 150 × 150 см + игрушки и коврик в подарок" },
+      "estado": { "es": "Con detalles de uso", "ru": "Следы использования" },
+      "desc": {
+        "es": "Corralito Genialoso de 150 × 150 × 55 cm, MDF de 9 mm, 8 paneles, sin pintar y con bordes redondeados. Tiene marcas y señales de uso, cumple perfectamente su función. De regalo, una alfombra de juego de aprox. 180 × 120 cm y un set de juguetes: tren con vagón encastre, casita encastre, pirámide de aros, carrito de supermercado infantil, bowling de plástico, pizarra mágica magnética, peluches, libros y juguetes de tela con sonido, cubo Rubik, mordillos y muchos juguetes chicos.",
+        "ru": "Манеж-ограждение Genialoso 150 × 150 × 55 см из МДФ толщиной 9 мм, 8 секций, неокрашенный, со скруглёнными краями. Есть потёртости и следы использования, свою функцию выполняет полностью. В подарок игровой коврик примерно 180 × 120 см и набор игрушек: поезд с прицепом-сортером, домик-сортер, пирамидка, детская тележка для покупок, пластиковый боулинг, магнитная доска для рисования, мягкие игрушки, книжки и шуршалки, кубик Рубика, грызунки и много мелочей."
+      }
+    },
+    {
+      "id": "17", "cat": "bebe", "precio": 22000, "status": "disponible", "fotos": 1, "visible": true,
+      "titulo": { "es": "Colchón de cuna 97 × 65 cm + sábana y 2 fundas", "ru": "Детский матрас 97 × 65 см + простыня и 2 наволочки" },
+      "estado": { "es": "Buen estado", "ru": "Хорошее" },
+      "desc": {
+        "es": "Colchón infantil de 97 × 65 cm. Buen estado. De regalo, una sábana y 2 fundas de algodón.",
+        "ru": "Детский матрас 97 × 65 см. Состояние хорошее. В подарок простыня и 2 хлопковые наволочки."
+      }
+    },
+    {
+      "id": "07", "cat": "electro", "precio": 350000, "status": "disponible", "fotos": 2, "visible": true,
+      "titulo": { "es": "Robot aspiradora Xiaomi Robot Vacuum S20+ con base", "ru": "Робот-пылесос Xiaomi Robot Vacuum S20+ с базой" },
+      "estado": { "es": "Muy buen estado", "ru": "Хорошее" },
+      "desc": {
+        "es": "Robot aspiradora Xiaomi Robot Vacuum S20+ con base. La batería rinde bien, cepillos y filtro sin desgaste. De regalo, dos paños de repuesto nuevos para el trapeado. Muy buen estado.",
+        "ru": "Робот-пылесос Xiaomi Robot Vacuum S20+ с базой. Аккумулятор держит хорошо, щётки и фильтр не изношены. В подарок две новые запасные салфетки для мытья пола. Состояние хорошее."
+      }
+    },
+    {
+      "id": "04", "cat": "electro", "precio": 320000, "status": "disponible", "fotos": 2, "visible": true,
+      "titulo": { "es": "Deshumidificador Nappo NVD-298, 20 L/día", "ru": "Осушитель воздуха Nappo NVD-298, 20 л/сутки" },
+      "estado": { "es": "Excelente", "ru": "Отличное" },
+      "desc": {
+        "es": "Deshumidificador blanco de 20 L/día, 350 W, depósito de 3 L y drenaje continuo. Superficie recomendada de hasta 55 m² (según el fabricante). Comprado en marzo de 2026, estado excelente.",
+        "ru": "Белый осушитель воздуха 20 л/сутки, 350 Вт, бак 3 л, возможен непрерывный слив воды. Рекомендуемая площадь до 55 м² (данные производителя). Куплен в марте 2026 года, состояние отличное."
+      }
+    },
+    {
+      "id": "03", "cat": "electro", "precio": 280000, "status": "disponible", "fotos": 4, "visible": true,
+      "titulo": { "es": "Lavavajillas Philco de sobremesa, 5 cubiertos, negro", "ru": "Настольная посудомойка Philco на 5 комплектов, чёрная" },
+      "estado": { "es": "Excelente", "ru": "Отличное" },
+      "desc": {
+        "es": "Lavavajillas compacto negro Philco PHLJ05N de 5 cubiertos, 6 programas, 220 V. Medidas según ficha: 55 × 34,5 × 50 cm. Comprado en abril de 2026, estado excelente. De regalo, unas 50 pastillas para lavavajillas.",
+        "ru": "Чёрная компактная посудомойка Philco PHLJ05N на 5 комплектов, 6 программ, 220 В. Габариты по карточке: 55 × 34,5 × 50 см. Куплена в апреле 2026 года, состояние отличное. В подарок около 50 таблеток для посудомойки."
+      }
+    },
+    {
+      "id": "11", "cat": "electro", "precio": 60000, "status": "disponible", "fotos": 3, "visible": true,
+      "titulo": { "es": "Máquina de coser portátil Smart Tech, 39 puntadas", "ru": "Портативная швейная машинка Smart Tech, 39 строчек" },
+      "estado": { "es": "Excelente", "ru": "Отличное" },
+      "desc": {
+        "es": "Máquina de coser portátil Smart Tech FHSM-638 ST de 39 puntadas, con pedal y mesa de extensión. Comprada en febrero de 2026, estado excelente.",
+        "ru": "Портативная швейная машинка Smart Tech FHSM-638 ST, 39 видов строчек, с педалью и расширительным столиком. Куплена в феврале 2026 года, состояние отличное."
+      }
+    },
+    {
+      "id": "14", "cat": "electro", "precio": 45000, "status": "disponible", "fotos": 3, "visible": true,
+      "titulo": { "es": "Ventilador Delhi 3 en 1: de pie, turbo y pared", "ru": "Вентилятор Delhi 3 в 1: напольный, турбо и настенный" },
+      "estado": { "es": "Muy buen estado", "ru": "Хорошее" },
+      "desc": {
+        "es": "Tres modos: de pie, turbo y de pared. Motor de 95 W, 3 velocidades, altura máxima de 1,70 m, altura regulable y modo oscilante. Muy buen estado.",
+        "ru": "Три варианта установки: на стойке, низкий «турбо» и настенный. Мотор 95 Вт, 3 скорости, высота до 1,70 м, регулировка высоты, поворотный режим. Состояние хорошее."
+      }
+    },
+    {
+      "id": "20", "cat": "electro", "precio": 18000, "status": "disponible", "fotos": 1, "visible": true,
+      "titulo": { "es": "Caloventor eléctrico 1800 W", "ru": "Электрический тепловентилятор 1800 Вт" },
+      "estado": { "es": "Muy buen estado", "ru": "Хорошее" },
+      "desc": {
+        "es": "Caloventor eléctrico para calefaccionar ambientes, aprox. 1800 W. Muy buen estado, funciona.",
+        "ru": "Электрический тепловентилятор для обогрева комнаты, около 1800 Вт. Состояние хорошее, работает."
+      }
+    },
+    {
+      "id": "33", "cat": "electro", "precio": 30000, "status": "disponible", "fotos": 1, "visible": true,
+      "titulo": { "es": "Plancha a vapor Ultracomb PL-4180, 2250 W", "ru": "Паровой утюг Ultracomb PL-4180, 2250 Вт" },
+      "estado": { "es": "Muy buen estado", "ru": "Хорошее" },
+      "desc": {
+        "es": "Plancha a vapor Ultracomb PL-4180 de 2250 W, negra. Muy buen estado, funciona.",
+        "ru": "Паровой утюг Ultracomb PL-4180, 2250 Вт, чёрный. Состояние хорошее, работает."
+      }
+    },
+    {
+      "id": "09", "cat": "cocina", "precio": 50000, "status": "disponible", "fotos": 2, "visible": true,
+      "titulo": { "es": "Picadora de carne eléctrica Turboblender 1000 W", "ru": "Электрическая мясорубка Turboblender 1000 Вт" },
+      "estado": { "es": "Regular", "ru": "Среднее" },
+      "desc": {
+        "es": "Picadora de carne eléctrica Turboblender TB-PM1000 de 1000 W. Estado regular.",
+        "ru": "Электрическая мясорубка Turboblender TB-PM1000, 1000 Вт. Состояние среднее."
+      }
+    },
+    {
+      "id": "08", "cat": "cocina", "precio": 25000, "status": "disponible", "fotos": 1, "visible": true,
+      "titulo": { "es": "Procesadora / picadora Sansei 400 W", "ru": "Электрический измельчитель Sansei 400 Вт" },
+      "estado": { "es": "Excelente", "ru": "Отличное" },
+      "desc": {
+        "es": "Procesadora / picadora eléctrica Sansei de 400 W, cuchilla de acero inoxidable. Comprada en agosto de 2026, estado excelente.",
+        "ru": "Электрический измельчитель продуктов Sansei 400 Вт, нож из нержавеющей стали. Куплен в августе 2026 года, состояние отличное."
+      }
+    },
+    {
+      "id": "19", "cat": "cocina", "precio": 25000, "status": "disponible", "fotos": 1, "visible": true,
+      "titulo": { "es": "Mixer de mano Winco", "ru": "Погружной блендер Winco" },
+      "estado": { "es": "Excelente", "ru": "Отличное" },
+      "desc": {
+        "es": "Mixer de mano Winco, comprado en agosto de 2025. Estado excelente.",
+        "ru": "Погружной блендер Winco, куплен в августе 2025 года. Состояние отличное."
+      }
+    },
+    {
+      "id": "23", "cat": "cocina", "precio": 10000, "status": "disponible", "fotos": 1, "visible": true,
+      "titulo": { "es": "Mixer Kanjihome 800 W: motor, picador, batidor y vaso", "ru": "Блендер Kanjihome 800 Вт: мотор, измельчитель, венчик, стакан" },
+      "estado": { "es": "Regular", "ru": "Среднее" },
+      "desc": {
+        "es": "Motor Kanjihome de 800 W con picador, batidor y vaso. No incluye el pie de mixer. Comprado en 2024, estado regular, con señales de uso.",
+        "ru": "Моторный блок Kanjihome 800 Вт с насадкой-измельчителем, венчиком и стаканом. Погружной ножки нет. Куплен в 2024 году, состояние среднее, есть следы использования."
+      }
+    },
+    {
+      "id": "21", "cat": "herramientas", "precio": 65000, "status": "disponible", "fotos": 1, "visible": true,
+      "titulo": { "es": "Taladro percutor inalámbrico Fiwaki 12 V, 2 baterías y maletín", "ru": "Аккумуляторная ударная дрель Fiwaki 12 В, 2 аккумулятора, кейс" },
+      "estado": { "es": "Excelente", "ru": "Отличное" },
+      "desc": {
+        "es": "Taladro percutor atornillador de 12 V, mandril de 10 mm, 2 velocidades (0–350 / 0–1420 rpm), torque de hasta 24 Nm, 25 posiciones, reversa y función percutora. Kit completo: 2 baterías de litio de 1500 mAh, cargador, puntas, mechas y adaptadores originales y maletín. Poco uso, estado excelente.",
+        "ru": "Ударная дрель-шуруповёрт 12 В с патроном 10 мм, 2 скорости (0–350 / 0–1420 об/мин), до 24 Н·м, 25 положений регулировки, реверс и ударный режим. Полный комплект: 2 литий-ионных аккумулятора 1500 мА·ч, зарядное устройство, оригинальные биты, сверла, переходники и кейс. Почти не использовалась, состояние отличное."
+      }
+    },
+    {
+      "id": "13", "cat": "herramientas", "precio": 30000, "status": "disponible", "fotos": 1, "visible": true,
+      "titulo": { "es": "Maletín de herramientas Alpina, 126 piezas", "ru": "Набор ручных инструментов Alpina, 126 предметов" },
+      "estado": { "es": "Muy buen estado", "ru": "Хорошее" },
+      "desc": {
+        "es": "Maletín de herramientas manuales Alpina, 126 piezas, completo. Varias herramientas casi sin uso, muy buen estado.",
+        "ru": "Набор ручных инструментов Alpina в кейсе, 126 предметов, всё на месте. Многими инструментами почти не пользовались, состояние хорошее."
+      }
+    },
+    {
+      "id": "01", "cat": "electronica", "precio": 210000, "status": "disponible", "fotos": 2, "visible": false,
+      "titulo": { "es": "Monitor gamer Redragon 27″, Full HD, 165 Hz", "ru": "Игровой монитор Redragon 27″, Full HD, 165 Гц" },
+      "estado": { "es": "Excelente", "ru": "Отличное" },
+      "nota": { "es": "En uso, entrega a coordinar", "ru": "Пока используется, передача по договорённости" },
+      "desc": {
+        "es": "Monitor VA de 27″, Full HD 1920×1080, 165 Hz, respuesta declarada de 1 ms, AMD FreeSync. HDMI, DisplayPort, DVI y montaje VESA 100×100 mm. Estado excelente, sin daños. Fuente de alimentación nueva, comprada en marzo de 2026. Con uno de los dos monitores regalo un brazo de escritorio regulable en altura y giro (a acordar; confirmar compatibilidad).",
+        "ru": "Плоский VA-монитор 27″, Full HD 1920×1080, 165 Гц, заявленный отклик 1 мс, AMD FreeSync. Разъёмы HDMI, DisplayPort, DVI, крепление VESA 100×100 мм. Состояние отличное, без повреждений. Блок питания новый, куплен в марте 2026 года. С одним из двух мониторов бесплатно отдам настольный кронштейн с регулировкой высоты и поворота (по договорённости, совместимость проверить)."
+      }
+    },
+    {
+      "id": "02", "cat": "electronica", "precio": 130000, "status": "disponible", "fotos": 4, "visible": false,
+      "titulo": { "es": "Monitor Samsung 24″, Full HD, IPS, 75 Hz", "ru": "Монитор Samsung 24″, Full HD, IPS, 75 Гц" },
+      "estado": { "es": "Excelente", "ru": "Отличное" },
+      "nota": { "es": "En uso, entrega a coordinar", "ru": "Пока используется, передача по договорённости" },
+      "desc": {
+        "es": "Monitor IPS de 24″, Full HD 1920×1080, 75 Hz, HDMI, VGA, AMD FreeSync. Fabricado en noviembre de 2023. Estado excelente, sin daños. Con uno de los dos monitores regalo un brazo de escritorio regulable en altura y giro (a acordar; confirmar compatibilidad).",
+        "ru": "Монитор IPS 24″, Full HD 1920×1080, 75 Гц, HDMI, VGA, AMD FreeSync. Произведён в ноябре 2023 года. Состояние отличное, без повреждений. С одним из двух мониторов бесплатно отдам настольный кронштейн с регулировкой высоты и поворота (по договорённости, совместимость проверить)."
+      }
+    },
+    {
+      "id": "16", "cat": "deportes", "precio": 250000, "status": "disponible", "fotos": 3, "visible": false,
+      "titulo": { "es": "Bicicleta plegable Tomaselli rodado 20, negra, talle M", "ru": "Складной велосипед Tomaselli, колёса 20″, чёрный, размер M" },
+      "estado": { "es": "Con detalles de uso", "ru": "Следы использования" },
+      "desc": {
+        "es": "Bicicleta plegable rodado 20, negra, talle M. Anda bien. Tiene detalles de uso: algo de óxido en algunas partes, raspones y un puño de goma algo gastado. Incluye inflador y candado.",
+        "ru": "Складной велосипед с колёсами 20 дюймов, чёрный, размер M. На ходу. Есть следы использования: местами ржавчина, потёртости, немного повреждена резиновая ручка руля. В комплекте насос и замок."
+      }
+    }
+  ]
+}
