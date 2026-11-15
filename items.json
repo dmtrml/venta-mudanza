@@ -35,6 +35,11 @@
       "id": "deportes",
       "es": "Deportes",
       "ru": "Спорт"
+    },
+    {
+      "id": "hogar",
+      "es": "Casa",
+      "ru": "Для дома"
     }
   ],
   "items": [
@@ -274,6 +279,31 @@
       "peso": 3,
       "transporte": "auto",
       "anio": 2025
+    },
+    {
+      "id": "42",
+      "cat": "bebe",
+      "precio": 35000,
+      "status": "disponible",
+      "fotos": 3,
+      "visible": true,
+      "titulo": {
+        "es": "Hamaca colgante de tela para bebé",
+        "ru": "Подвесной тканевый гамак для малыша"
+      },
+      "estado": {
+        "es": "Muy buen estado",
+        "ru": "Хорошее"
+      },
+      "desc": {
+        "es": "Hamaca colgante de tela para bebé, con barra de madera y cadena para colgar (ver fotos). Tela limpia, estructura firme. Muy buen estado.",
+        "ru": "Подвесной тканевый гамак для малыша с деревянной перекладиной и цепью для подвеса (см. фото). Ткань чистая, конструкция крепкая. Состояние хорошее."
+      },
+      "nuevo": 69000,
+      "nuevo_similar": true,
+      "medidas": "30×20×10",
+      "peso": 1.5,
+      "transporte": "moto"
     },
     {
       "id": "07",
@@ -680,6 +710,57 @@
         "es": "Bicicleta plegable rodado 20, negra, talle M. Anda bien. Tiene detalles de uso: algo de óxido en algunas partes, raspones y un puño de goma algo gastado. Incluye inflador y candado.",
         "ru": "Складной велосипед с колёсами 20 дюймов, чёрный, размер M. На ходу. Есть следы использования: местами ржавчина, потёртости, немного повреждена резиновая ручка руля. В комплекте насос и замок."
       }
+    },
+    {
+      "id": "24",
+      "cat": "electronica",
+      "precio": 120000,
+      "status": "disponible",
+      "fotos": 5,
+      "visible": true,
+      "titulo": {
+        "es": "Proyector Wanbo Mini Pro + pantalla + trípode",
+        "ru": "Проектор Wanbo Mini Pro + экран + тренога"
+      },
+      "estado": {
+        "es": "Buen estado",
+        "ru": "Хорошее"
+      },
+      "desc": {
+        "es": "Kit de 3 piezas: proyector Wanbo Mini Pro, pantalla de proyección y trípode telescópico. Según el fabricante: 720p (1280×720), 250 lúmenes ANSI, parlante de 3 W, HDMI, USB, salida de 3,5 mm, Wi-Fi y Bluetooth. Con control remoto y fuente; todo funciona.",
+        "ru": "Комплект из трёх вещей: проектор Wanbo Mini Pro, проекционный экран и телескопическая тренога. По данным производителя: 720p (1280×720), 250 ANSI-люмен, динамик 3 Вт, HDMI, USB, выход 3,5 мм, Wi-Fi и Bluetooth. С пультом и блоком питания, всё работает."
+      },
+      "nuevo": 370000,
+      "nuevo_similar": true,
+      "medidas": "21×16×9 + 65×12×12",
+      "peso": 3,
+      "transporte": "auto",
+      "anio": 2024,
+      "probar": true
+    },
+    {
+      "id": "40",
+      "cat": "hogar",
+      "precio": 40000,
+      "status": "disponible",
+      "fotos": 0,
+      "visible": false,
+      "titulo": {
+        "es": "Colchón de espuma 200 × 80 × 8 cm",
+        "ru": "Поролоновый матрас 200 × 80 × 8 см"
+      },
+      "estado": {
+        "es": "Muy buen estado",
+        "ru": "Хорошее"
+      },
+      "desc": {
+        "es": "Colchón de espuma de una plaza, 200 × 80 cm, 8 cm de alto. Liviano, ideal para invitados o para el piso. Comprado en 2026.",
+        "ru": "Поролоновый матрас 200 × 80 см, толщина 8 см. Лёгкий, подойдёт для гостей или на пол. Куплен в 2026 году."
+      },
+      "medidas": "200×80×8",
+      "peso": 3,
+      "transporte": "auto",
+      "anio": 2026
     }
   ]
 }
