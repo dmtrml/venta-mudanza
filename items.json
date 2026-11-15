@@ -40,7 +40,7 @@
     {
       "id": "05",
       "cat": "bebe",
-      "precio": 240000,
+      "precio": 220000,
       "status": "disponible",
       "fotos": 11,
       "visible": true,
@@ -60,7 +60,7 @@
     {
       "id": "22",
       "cat": "bebe",
-      "precio": 70000,
+      "precio": 60000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
@@ -80,7 +80,7 @@
     {
       "id": "57",
       "cat": "bebe",
-      "precio": 60000,
+      "precio": 45000,
       "status": "disponible",
       "fotos": 3,
       "visible": true,
@@ -104,7 +104,7 @@
     {
       "id": "12",
       "cat": "bebe",
-      "precio": 50000,
+      "precio": 40000,
       "status": "disponible",
       "fotos": 3,
       "visible": true,
@@ -124,7 +124,7 @@
     {
       "id": "18",
       "cat": "bebe",
-      "precio": 35000,
+      "precio": 30000,
       "status": "disponible",
       "fotos": 3,
       "visible": true,
@@ -144,7 +144,7 @@
     {
       "id": "10",
       "cat": "bebe",
-      "precio": 20000,
+      "precio": 15000,
       "status": "disponible",
       "fotos": 2,
       "visible": true,
@@ -164,7 +164,7 @@
     {
       "id": "ropa",
       "cat": "bebe",
-      "precio": 35000,
+      "precio": 18000,
       "status": "disponible",
       "fotos": 6,
       "visible": true,
@@ -188,7 +188,7 @@
     {
       "id": "15",
       "cat": "bebe",
-      "precio": 90000,
+      "precio": 60000,
       "status": "disponible",
       "fotos": 2,
       "visible": true,
@@ -208,7 +208,7 @@
     {
       "id": "17",
       "cat": "bebe",
-      "precio": 22000,
+      "precio": 18000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
@@ -228,7 +228,7 @@
     {
       "id": "07",
       "cat": "electro",
-      "precio": 350000,
+      "precio": 290000,
       "status": "disponible",
       "fotos": 2,
       "visible": true,
@@ -248,7 +248,7 @@
     {
       "id": "04",
       "cat": "electro",
-      "precio": 320000,
+      "precio": 270000,
       "status": "disponible",
       "fotos": 2,
       "visible": true,
@@ -268,7 +268,7 @@
     {
       "id": "03",
       "cat": "electro",
-      "precio": 280000,
+      "precio": 220000,
       "status": "disponible",
       "fotos": 4,
       "visible": true,
@@ -288,7 +288,7 @@
     {
       "id": "11",
       "cat": "electro",
-      "precio": 60000,
+      "precio": 50000,
       "status": "disponible",
       "fotos": 3,
       "visible": true,
@@ -308,7 +308,7 @@
     {
       "id": "14",
       "cat": "electro",
-      "precio": 45000,
+      "precio": 40000,
       "status": "disponible",
       "fotos": 3,
       "visible": true,
@@ -328,7 +328,7 @@
     {
       "id": "20",
       "cat": "electro",
-      "precio": 18000,
+      "precio": 15000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
@@ -348,7 +348,7 @@
     {
       "id": "33",
       "cat": "electro",
-      "precio": 30000,
+      "precio": 25000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
@@ -368,7 +368,7 @@
     {
       "id": "09",
       "cat": "cocina",
-      "precio": 50000,
+      "precio": 40000,
       "status": "disponible",
       "fotos": 2,
       "visible": true,
@@ -388,7 +388,7 @@
     {
       "id": "08",
       "cat": "cocina",
-      "precio": 25000,
+      "precio": 22000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
@@ -408,7 +408,7 @@
     {
       "id": "19",
       "cat": "cocina",
-      "precio": 25000,
+      "precio": 20000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
@@ -428,7 +428,7 @@
     {
       "id": "23",
       "cat": "cocina",
-      "precio": 10000,
+      "precio": 8000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
@@ -448,7 +448,7 @@
     {
       "id": "21",
       "cat": "herramientas",
-      "precio": 65000,
+      "precio": 50000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
@@ -468,7 +468,7 @@
     {
       "id": "13",
       "cat": "herramientas",
-      "precio": 30000,
+      "precio": 25000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
