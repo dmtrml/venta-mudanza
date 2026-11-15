@@ -118,12 +118,12 @@
         "es": "Tres mamaderas Dr. Brown's Natural Flow Options+ de 270 ml, boca ancha, nuevas y sin uso, en su caja original. Sistema de ventilación anti-cólicos, se pueden usar con o sin él. Las tres con tetina nivel 1 (0m+). Incluye una tetina de repuesto nivel 1, una nivel 2 (3m+) y un cepillo para limpiar el sistema de ventilación. Sin BPA.",
         "ru": "Три новые бутылочки Dr. Brown's Natural Flow Options+ по 270 мл с широким горлом, в оригинальной коробке, не использовались. Антиколиковая система вентиляции, можно пользоваться и без неё. На всех трёх соски уровня 1 (0+ мес.). В комплекте запасные соски уровня 1 и уровня 2 (3+ мес.) по одной и ёршик для чистки трубок. Без BPA."
       },
-      "nuevo": 96000,
-      "nuevo_similar": true,
+      "nuevo": 62000,
       "medidas": "25×20×12",
       "peso": 0.6,
       "transporte": "moto",
-      "anio": 2025
+      "anio": 2025,
+      "nuevo_fuente": "Carrousel MdP"
     },
     {
       "id": "12",
@@ -247,8 +247,7 @@
         "es": "Corralito Genialoso de 150 × 150 × 55 cm, MDF de 9 mm, 8 paneles, sin pintar y con bordes redondeados. Tiene marcas y señales de uso, cumple perfectamente su función. De regalo, una alfombra de juego de aprox. 180 × 120 cm y un set de juguetes: tren con vagón encastre, casita encastre, pirámide de aros, carrito de supermercado infantil, bowling de plástico, pizarra mágica magnética, peluches, libros y juguetes de tela con sonido, cubo Rubik, mordillos y muchos juguetes chicos.",
         "ru": "Манеж-ограждение Genialoso 150 × 150 × 55 см из МДФ толщиной 9 мм, 8 секций, неокрашенный, со скруглёнными краями. Есть потёртости и следы использования, свою функцию выполняет полностью. В подарок игровой коврик примерно 180 × 120 см и набор игрушек: поезд с прицепом-сортером, домик-сортер, пирамидка, детская тележка для покупок, пластиковый боулинг, магнитная доска для рисования, мягкие игрушки, книжки и шуршалки, кубик Рубика, грызунки и много мелочей."
       },
-      "nuevo": 130000,
-      "nuevo_similar": true,
+      "nuevo": 180000,
       "medidas": "150×55×10",
       "peso": 15,
       "transporte": "auto",
