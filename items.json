@@ -2,7 +2,8 @@
   "config": {
     "whatsapp": "5491132471322",
     "telegram": "imdmtrv",
-    "actualizado": "2026-11-15"
+    "actualizado": "2026-11-15",
+    "nuevo_fecha": "2026-11"
   },
   "categorias": [
     {
@@ -55,7 +56,13 @@
       "desc": {
         "es": "Cochecito Carestino London 3 en 1: asiento, moisés y huevito, las tres partes completas. Incluye cobertor de lluvia. Buen estado: tiene señales de uso, nada que afecte su funcionamiento.",
         "ru": "Коляска 3 в 1 Carestino London: прогулочный блок, люлька и автокресло-переноска, все три части на месте. В комплекте дождевик. Состояние хорошее: есть следы использования, на работу ничего не влияет."
-      }
+      },
+      "nuevo": 550000,
+      "nuevo_similar": true,
+      "medidas": "85×50×40 + 85×40×25 + 70×45×60",
+      "peso": 20,
+      "transporte": "auto",
+      "anio": 2024
     },
     {
       "id": "22",
@@ -75,7 +82,13 @@
       "desc": {
         "es": "Set de dos módulos blandos de goma espuma: escalera de tres escalones (rosa terracota) y rampa (superficie turquesa, laterales beige). Muy buen estado.",
         "ru": "Набор из двух мягких модулей: трёхступенчатая лесенка (терракотово-розовая) и наклонная горка (бирюзовый верх, бежевые боковины). Состояние хорошее."
-      }
+      },
+      "nuevo": 145000,
+      "nuevo_similar": true,
+      "medidas": "100×45×30 + 60×45×30",
+      "peso": 6,
+      "transporte": "auto",
+      "anio": 2026
     },
     {
       "id": "57",
@@ -99,7 +112,13 @@
       "desc": {
         "es": "Tres mamaderas Dr. Brown's Natural Flow Options+ de 270 ml, boca ancha, nuevas y sin uso, en su caja original. Sistema de ventilación anti-cólicos, se pueden usar con o sin él. Las tres con tetina nivel 1 (0m+). Incluye una tetina de repuesto nivel 1, una nivel 2 (3m+) y un cepillo para limpiar el sistema de ventilación. Sin BPA.",
         "ru": "Три новые бутылочки Dr. Brown's Natural Flow Options+ по 270 мл с широким горлом, в оригинальной коробке, не использовались. Антиколиковая система вентиляции, можно пользоваться и без неё. На всех трёх соски уровня 1 (0+ мес.). В комплекте запасные соски уровня 1 и уровня 2 (3+ мес.) по одной и ёршик для чистки трубок. Без BPA."
-      }
+      },
+      "nuevo": 96000,
+      "nuevo_similar": true,
+      "medidas": "25×20×12",
+      "peso": 0.6,
+      "transporte": "moto",
+      "anio": 2025
     },
     {
       "id": "12",
@@ -119,7 +138,12 @@
       "desc": {
         "es": "Silla de comer plegable, con altura regulable y respaldo reclinable. Buen estado, con señales de uso.",
         "ru": "Складной стульчик для кормления: регулируемая высота, откидная спинка. Состояние хорошее, есть следы использования."
-      }
+      },
+      "nuevo": 163000,
+      "medidas": "85×50×30",
+      "peso": 8,
+      "transporte": "auto",
+      "anio": 2025
     },
     {
       "id": "18",
@@ -139,7 +163,13 @@
       "desc": {
         "es": "Bañera plegable Carestino, versión anterior, similar a la actual Bañera Plegable con Soporte Aguamarina. Tiene señales de uso que no afectan su funcionamiento.",
         "ru": "Складная детская ванночка Carestino предыдущей модели, похожа на нынешнюю Bañera Plegable con Soporte Aguamarina. Есть следы использования, на функциональность не влияют."
-      }
+      },
+      "nuevo": 70000,
+      "nuevo_similar": true,
+      "medidas": "80×50×15",
+      "peso": 3,
+      "transporte": "auto",
+      "anio": 2024
     },
     {
       "id": "10",
@@ -159,7 +189,12 @@
       "desc": {
         "es": "Pelela, reductor de inodoro y banquito; depósito desmontable. Casi sin uso, muy buen estado.",
         "ru": "Горшок, накладка на унитаз и подставка-ступенька, съёмный контейнер. Почти не использовался, состояние хорошее."
-      }
+      },
+      "nuevo": 20000,
+      "medidas": "35×30×30",
+      "peso": 1.2,
+      "transporte": "moto",
+      "anio": 2026
     },
     {
       "id": "ropa",
@@ -183,7 +218,10 @@
       "desc": {
         "es": "Lote de ropa de bebé, todo en buen estado: enterito térmico, talle aproximado 74; enterito Carter's, la etiqueta dice 9 meses pero es chico (en nuestro caso se usó aproximadamente desde los 5 meses); pijama enterito térmico H&M con conejito, talle 74, con pies antideslizantes; zapatitos tipo media, plantilla de 12,5 cm. Precio por el lote completo. Si te interesa alguna prenda suelta, consultame.",
         "ru": "Лот детской одежды, всё в хорошем состоянии: тёплый комбинезон, размер примерно 74; комбинезон Carter's, на бирке 9 месяцев, но маломерит (мы носили примерно с 5 месяцев); тёплая пижама-комбинезон H&M с зайчиком, размер 74, с нескользящими стопами; пинетки-носочки, стелька 12,5 см. Цена за весь лот. Если интересует отдельная вещь, напишите."
-      }
+      },
+      "medidas": "30×25×15",
+      "peso": 1,
+      "transporte": "moto"
     },
     {
       "id": "15",
@@ -203,7 +241,13 @@
       "desc": {
         "es": "Corralito Genialoso de 150 × 150 × 55 cm, MDF de 9 mm, 8 paneles, sin pintar y con bordes redondeados. Tiene marcas y señales de uso, cumple perfectamente su función. De regalo, una alfombra de juego de aprox. 180 × 120 cm y un set de juguetes: tren con vagón encastre, casita encastre, pirámide de aros, carrito de supermercado infantil, bowling de plástico, pizarra mágica magnética, peluches, libros y juguetes de tela con sonido, cubo Rubik, mordillos y muchos juguetes chicos.",
         "ru": "Манеж-ограждение Genialoso 150 × 150 × 55 см из МДФ толщиной 9 мм, 8 секций, неокрашенный, со скруглёнными краями. Есть потёртости и следы использования, свою функцию выполняет полностью. В подарок игровой коврик примерно 180 × 120 см и набор игрушек: поезд с прицепом-сортером, домик-сортер, пирамидка, детская тележка для покупок, пластиковый боулинг, магнитная доска для рисования, мягкие игрушки, книжки и шуршалки, кубик Рубика, грызунки и много мелочей."
-      }
+      },
+      "nuevo": 130000,
+      "nuevo_similar": true,
+      "medidas": "150×55×10",
+      "peso": 15,
+      "transporte": "auto",
+      "anio": 2025
     },
     {
       "id": "17",
@@ -223,7 +267,13 @@
       "desc": {
         "es": "Colchón infantil de 97 × 65 cm. Buen estado. De regalo, una sábana y 2 fundas de algodón.",
         "ru": "Детский матрас 97 × 65 см. Состояние хорошее. В подарок простыня и 2 хлопковые наволочки."
-      }
+      },
+      "nuevo": 76000,
+      "nuevo_similar": true,
+      "medidas": "97×65×10",
+      "peso": 3,
+      "transporte": "auto",
+      "anio": 2025
     },
     {
       "id": "07",
@@ -243,7 +293,13 @@
       "desc": {
         "es": "Robot aspiradora Xiaomi Robot Vacuum S20+ con base. La batería rinde bien, cepillos y filtro sin desgaste. De regalo, dos paños de repuesto nuevos para el trapeado. Muy buen estado.",
         "ru": "Робот-пылесос Xiaomi Robot Vacuum S20+ с базой. Аккумулятор держит хорошо, щётки и фильтр не изношены. В подарок две новые запасные салфетки для мытья пола. Состояние хорошее."
-      }
+      },
+      "nuevo": 900000,
+      "medidas": "35×35×10 + 40×35×40",
+      "peso": 9,
+      "transporte": "auto",
+      "anio": 2025,
+      "probar": true
     },
     {
       "id": "04",
@@ -263,7 +319,14 @@
       "desc": {
         "es": "Deshumidificador blanco de 20 L/día, 350 W, depósito de 3 L y drenaje continuo. Superficie recomendada de hasta 55 m² (según el fabricante). Comprado en marzo de 2026, estado excelente.",
         "ru": "Белый осушитель воздуха 20 л/сутки, 350 Вт, бак 3 л, возможен непрерывный слив воды. Рекомендуемая площадь до 55 м² (данные производителя). Куплен в марте 2026 года, состояние отличное."
-      }
+      },
+      "nuevo": 940000,
+      "nuevo_similar": true,
+      "medidas": "35×27×55",
+      "peso": 12,
+      "transporte": "auto",
+      "anio": 2026,
+      "probar": true
     },
     {
       "id": "03",
@@ -283,7 +346,14 @@
       "desc": {
         "es": "Lavavajillas compacto negro Philco PHLJ05N de 5 cubiertos, 6 programas, 220 V. Medidas según ficha: 55 × 34,5 × 50 cm. Comprado en abril de 2026, estado excelente. De regalo, unas 50 pastillas para lavavajillas.",
         "ru": "Чёрная компактная посудомойка Philco PHLJ05N на 5 комплектов, 6 программ, 220 В. Габариты по карточке: 55 × 34,5 × 50 см. Куплена в апреле 2026 года, состояние отличное. В подарок около 50 таблеток для посудомойки."
-      }
+      },
+      "nuevo": 537000,
+      "nuevo_similar": true,
+      "medidas": "55×35×50",
+      "peso": 17,
+      "transporte": "auto",
+      "anio": 2026,
+      "probar": true
     },
     {
       "id": "11",
@@ -303,7 +373,13 @@
       "desc": {
         "es": "Máquina de coser portátil Smart Tech FHSM-638 ST de 39 puntadas, con pedal y mesa de extensión. Comprada en febrero de 2026, estado excelente.",
         "ru": "Портативная швейная машинка Smart Tech FHSM-638 ST, 39 видов строчек, с педалью и расширительным столиком. Куплена в феврале 2026 года, состояние отличное."
-      }
+      },
+      "nuevo": 180000,
+      "medidas": "40×20×32",
+      "peso": 3.5,
+      "transporte": "moto",
+      "anio": 2026,
+      "probar": true
     },
     {
       "id": "14",
@@ -323,7 +399,13 @@
       "desc": {
         "es": "Tres modos: de pie, turbo y de pared. Motor de 95 W, 3 velocidades, altura máxima de 1,70 m, altura regulable y modo oscilante. Muy buen estado.",
         "ru": "Три варианта установки: на стойке, низкий «турбо» и настенный. Мотор 95 Вт, 3 скорости, высота до 1,70 м, регулировка высоты, поворотный режим. Состояние хорошее."
-      }
+      },
+      "nuevo": 65000,
+      "medidas": "50×50×20 + 50×30×15",
+      "peso": 5,
+      "transporte": "auto",
+      "anio": 2025,
+      "probar": true
     },
     {
       "id": "20",
@@ -343,7 +425,12 @@
       "desc": {
         "es": "Caloventor eléctrico para calefaccionar ambientes, aprox. 1800 W. Muy buen estado, funciona.",
         "ru": "Электрический тепловентилятор для обогрева комнаты, около 1800 Вт. Состояние хорошее, работает."
-      }
+      },
+      "medidas": "25×20×25",
+      "peso": 1.5,
+      "transporte": "moto",
+      "anio": 2024,
+      "probar": true
     },
     {
       "id": "33",
@@ -363,7 +450,13 @@
       "desc": {
         "es": "Plancha a vapor Ultracomb PL-4180 de 2250 W, negra. Muy buen estado, funciona.",
         "ru": "Паровой утюг Ultracomb PL-4180, 2250 Вт, чёрный. Состояние хорошее, работает."
-      }
+      },
+      "nuevo": 53000,
+      "medidas": "30×13×15",
+      "peso": 1.2,
+      "transporte": "moto",
+      "anio": 2024,
+      "probar": true
     },
     {
       "id": "09",
@@ -383,7 +476,13 @@
       "desc": {
         "es": "Picadora de carne eléctrica Turboblender TB-PM1000 de 1000 W. Estado regular.",
         "ru": "Электрическая мясорубка Turboblender TB-PM1000, 1000 Вт. Состояние среднее."
-      }
+      },
+      "nuevo": 124000,
+      "medidas": "35×20×30",
+      "peso": 3.5,
+      "transporte": "moto",
+      "anio": 2026,
+      "probar": true
     },
     {
       "id": "08",
@@ -403,7 +502,13 @@
       "desc": {
         "es": "Procesadora / picadora eléctrica Sansei de 400 W, cuchilla de acero inoxidable. Comprada en agosto de 2026, estado excelente.",
         "ru": "Электрический измельчитель продуктов Sansei 400 Вт, нож из нержавеющей стали. Куплен в августе 2026 года, состояние отличное."
-      }
+      },
+      "nuevo": 34000,
+      "medidas": "20×12×25",
+      "peso": 1,
+      "transporte": "moto",
+      "anio": 2026,
+      "probar": true
     },
     {
       "id": "19",
@@ -423,7 +528,12 @@
       "desc": {
         "es": "Mixer de mano Winco, comprado en agosto de 2025. Estado excelente.",
         "ru": "Погружной блендер Winco, куплен в августе 2025 года. Состояние отличное."
-      }
+      },
+      "medidas": "40×8×8",
+      "peso": 0.8,
+      "transporte": "moto",
+      "anio": 2025,
+      "probar": true
     },
     {
       "id": "23",
@@ -443,7 +553,12 @@
       "desc": {
         "es": "Motor Kanjihome de 800 W con picador, batidor y vaso. No incluye el pie de mixer. Comprado en 2024, estado regular, con señales de uso.",
         "ru": "Моторный блок Kanjihome 800 Вт с насадкой-измельчителем, венчиком и стаканом. Погружной ножки нет. Куплен в 2024 году, состояние среднее, есть следы использования."
-      }
+      },
+      "medidas": "30×20×20",
+      "peso": 1.5,
+      "transporte": "moto",
+      "anio": 2024,
+      "probar": true
     },
     {
       "id": "21",
@@ -463,7 +578,14 @@
       "desc": {
         "es": "Taladro percutor atornillador de 12 V, mandril de 10 mm, 2 velocidades (0–350 / 0–1420 rpm), torque de hasta 24 Nm, 25 posiciones, reversa y función percutora. Kit completo: 2 baterías de litio de 1500 mAh, cargador, puntas, mechas y adaptadores originales y maletín. Poco uso, estado excelente.",
         "ru": "Ударная дрель-шуруповёрт 12 В с патроном 10 мм, 2 скорости (0–350 / 0–1420 об/мин), до 24 Н·м, 25 положений регулировки, реверс и ударный режим. Полный комплект: 2 литий-ионных аккумулятора 1500 мА·ч, зарядное устройство, оригинальные биты, сверла, переходники и кейс. Почти не использовалась, состояние отличное."
-      }
+      },
+      "nuevo": 82000,
+      "nuevo_similar": true,
+      "medidas": "35×28×10",
+      "peso": 2.5,
+      "transporte": "moto",
+      "anio": 2025,
+      "probar": true
     },
     {
       "id": "13",
@@ -483,7 +605,12 @@
       "desc": {
         "es": "Maletín de herramientas manuales Alpina, 126 piezas, completo. Varias herramientas casi sin uso, muy buen estado.",
         "ru": "Набор ручных инструментов Alpina в кейсе, 126 предметов, всё на месте. Многими инструментами почти не пользовались, состояние хорошее."
-      }
+      },
+      "nuevo": 50000,
+      "medidas": "38×30×12",
+      "peso": 6,
+      "transporte": "moto",
+      "anio": 2025
     },
     {
       "id": "01",
