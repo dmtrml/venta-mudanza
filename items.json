@@ -98,7 +98,7 @@
     {
       "id": "57",
       "cat": "bebe",
-      "precio": 45000,
+      "precio": 35000,
       "status": "disponible",
       "fotos": 3,
       "visible": true,
@@ -598,7 +598,7 @@
     {
       "id": "21",
       "cat": "herramientas",
-      "precio": 50000,
+      "precio": 40000,
       "status": "disponible",
       "fotos": 1,
       "visible": true,
@@ -732,7 +732,7 @@
     {
       "id": "24",
       "cat": "electronica",
-      "precio": 120000,
+      "precio": 90000,
       "status": "disponible",
       "fotos": 5,
       "visible": true,
@@ -759,7 +759,7 @@
     {
       "id": "40",
       "cat": "hogar",
-      "precio": 40000,
+      "precio": 30000,
       "status": "disponible",
       "fotos": 2,
       "visible": true,
