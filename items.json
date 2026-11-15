@@ -62,12 +62,12 @@
         "es": "Cochecito Carestino London 3 en 1: asiento, moisés y huevito, las tres partes completas. Incluye cobertor de lluvia. Buen estado: tiene señales de uso, nada que afecte su funcionamiento.",
         "ru": "Коляска 3 в 1 Carestino London: прогулочный блок, люлька и автокресло-переноска, все три части на месте. В комплекте дождевик. Состояние хорошее: есть следы использования, на работу ничего не влияет."
       },
-      "nuevo": 550000,
-      "nuevo_similar": true,
       "medidas": "85×50×40 + 85×40×25 + 70×45×60",
       "peso": 20,
       "transporte": "auto",
-      "anio": 2024
+      "anio": 2024,
+      "nuevo": 545000,
+      "nuevo_fuente": "Minimaq"
     },
     {
       "id": "22",
@@ -169,12 +169,12 @@
         "es": "Bañera plegable Carestino, versión anterior, similar a la actual Bañera Plegable con Soporte Aguamarina. Tiene señales de uso que no afectan su funcionamiento.",
         "ru": "Складная детская ванночка Carestino предыдущей модели, похожа на нынешнюю Bañera Plegable con Soporte Aguamarina. Есть следы использования, на функциональность не влияют."
       },
-      "nuevo": 70000,
-      "nuevo_similar": true,
       "medidas": "80×50×15",
       "peso": 3,
       "transporte": "auto",
-      "anio": 2024
+      "anio": 2024,
+      "nuevo": 70000,
+      "nuevo_fuente": "Carestino"
     },
     {
       "id": "10",
@@ -273,12 +273,13 @@
         "es": "Colchón infantil de 97 × 65 cm. Buen estado. De regalo, una sábana y 2 fundas de algodón.",
         "ru": "Детский матрас 97 × 65 см. Состояние хорошее. В подарок простыня и 2 хлопковые наволочки."
       },
-      "nuevo": 76000,
-      "nuevo_similar": true,
       "medidas": "97×65×10",
       "peso": 3,
       "transporte": "auto",
-      "anio": 2025
+      "anio": 2025,
+      "nuevo": 62000,
+      "nuevo_similar": true,
+      "nuevo_fuente": "La Anónima"
     },
     {
       "id": "42",
@@ -351,8 +352,6 @@
         "es": "Deshumidificador blanco de 20 L/día, 350 W, depósito de 3 L y drenaje continuo. Superficie recomendada de hasta 55 m² (según el fabricante). Comprado en marzo de 2026, estado excelente.",
         "ru": "Белый осушитель воздуха 20 л/сутки, 350 Вт, бак 3 л, возможен непрерывный слив воды. Рекомендуемая площадь до 55 м² (данные производителя). Куплен в марте 2026 года, состояние отличное."
       },
-      "nuevo": 940000,
-      "nuevo_similar": true,
       "medidas": "35×27×55",
       "peso": 12,
       "transporte": "auto",
@@ -378,13 +377,13 @@
         "es": "Lavavajillas compacto negro Philco PHLJ05N de 5 cubiertos, 6 programas, 220 V. Medidas según ficha: 55 × 34,5 × 50 cm. Comprado en abril de 2026, estado excelente. De regalo, unas 50 pastillas para lavavajillas.",
         "ru": "Чёрная компактная посудомойка Philco PHLJ05N на 5 комплектов, 6 программ, 220 В. Габариты по карточке: 55 × 34,5 × 50 см. Куплена в апреле 2026 года, состояние отличное. В подарок около 50 таблеток для посудомойки."
       },
-      "nuevo": 537000,
-      "nuevo_similar": true,
       "medidas": "55×35×50",
       "peso": 17,
       "transporte": "auto",
       "anio": 2026,
-      "probar": true
+      "probar": true,
+      "nuevo": 455000,
+      "nuevo_fuente": "Provincia Compras"
     },
     {
       "id": "11",
@@ -446,22 +445,24 @@
       "fotos": 1,
       "visible": true,
       "titulo": {
-        "es": "Caloventor eléctrico 1800 W",
-        "ru": "Электрический тепловентилятор 1800 Вт"
+        "es": "Caloventor Dinax 2000 W",
+        "ru": "Тепловентилятор Dinax 2000 Вт"
       },
       "estado": {
         "es": "Muy buen estado",
         "ru": "Хорошее"
       },
       "desc": {
-        "es": "Caloventor eléctrico para calefaccionar ambientes, aprox. 1800 W. Muy buen estado, funciona.",
-        "ru": "Электрический тепловентилятор для обогрева комнаты, около 1800 Вт. Состояние хорошее, работает."
+        "es": "Caloventor eléctrico para calefaccionar ambientes, aprox. 2000 W. Muy buen estado, funciona.",
+        "ru": "Электрический тепловентилятор для обогрева комнаты, около 2000 Вт. Состояние хорошее, работает."
       },
       "medidas": "25×20×25",
       "peso": 1.5,
       "transporte": "moto",
       "anio": 2024,
-      "probar": true
+      "probar": true,
+      "nuevo": 33000,
+      "nuevo_fuente": "DDR Computación"
     },
     {
       "id": "33",
@@ -564,7 +565,9 @@
       "peso": 0.8,
       "transporte": "moto",
       "anio": 2025,
-      "probar": true
+      "probar": true,
+      "nuevo": 46000,
+      "nuevo_similar": true
     },
     {
       "id": "23",
@@ -589,7 +592,9 @@
       "peso": 1.5,
       "transporte": "moto",
       "anio": 2024,
-      "probar": true
+      "probar": true,
+      "nuevo": 35000,
+      "nuevo_fuente": "Grupo Márquez Savio"
     },
     {
       "id": "21",
@@ -610,13 +615,13 @@
         "es": "Taladro percutor atornillador de 12 V, mandril de 10 mm, 2 velocidades (0–350 / 0–1420 rpm), torque de hasta 24 Nm, 25 posiciones, reversa y función percutora. Kit completo: 2 baterías de litio de 1500 mAh, cargador, puntas, mechas y adaptadores originales y maletín. Poco uso, estado excelente.",
         "ru": "Ударная дрель-шуруповёрт 12 В с патроном 10 мм, 2 скорости (0–350 / 0–1420 об/мин), до 24 Н·м, 25 положений регулировки, реверс и ударный режим. Полный комплект: 2 литий-ионных аккумулятора 1500 мА·ч, зарядное устройство, оригинальные биты, сверла, переходники и кейс. Почти не использовалась, состояние отличное."
       },
-      "nuevo": 82000,
-      "nuevo_similar": true,
       "medidas": "35×28×10",
       "peso": 2.5,
       "transporte": "moto",
       "anio": 2025,
-      "probar": true
+      "probar": true,
+      "nuevo": 63000,
+      "nuevo_fuente": "Bergallo y Pastrone"
     },
     {
       "id": "13",
@@ -744,13 +749,13 @@
         "es": "Kit de 3 piezas: proyector Wanbo Mini Pro, pantalla de proyección y trípode telescópico. Según el fabricante: 720p (1280×720), 250 lúmenes ANSI, parlante de 3 W, HDMI, USB, salida de 3,5 mm, Wi-Fi y Bluetooth. Con control remoto y fuente; todo funciona.",
         "ru": "Комплект из трёх вещей: проектор Wanbo Mini Pro, проекционный экран и телескопическая тренога. По данным производителя: 720p (1280×720), 250 ANSI-люмен, динамик 3 Вт, HDMI, USB, выход 3,5 мм, Wi-Fi и Bluetooth. С пультом и блоком питания, всё работает."
       },
-      "nuevo": 370000,
-      "nuevo_similar": true,
       "medidas": "21×16×9 + 65×12×12",
       "peso": 3,
       "transporte": "auto",
       "anio": 2024,
-      "probar": true
+      "probar": true,
+      "nuevo": 125000,
+      "nuevo_fuente": "Computienda"
     },
     {
       "id": "40",
@@ -774,7 +779,9 @@
       "medidas": "200×80×8",
       "peso": 3,
       "transporte": "auto",
-      "anio": 2026
+      "anio": 2026,
+      "nuevo": 47000,
+      "nuevo_similar": true
     },
     {
       "id": "28",
@@ -796,12 +803,11 @@
         "es": "Silla gamer / de escritorio Dyvan 73210, blanca, ergonómica y reclinable. Comprada en enero 2026. La uso hasta la mudanza: se entrega en enero 2027, se reserva con seña.",
         "ru": "Игровое / офисное кресло Dyvan 73210, белое, эргономичное, с откидной спинкой. Куплено в январе 2026. Пользуюсь до переезда: отдам в январе 2027, бронь с задатком."
       },
-      "nuevo": 200000,
-      "nuevo_similar": true,
       "medidas": "65×65×120",
       "peso": 18,
       "transporte": "auto",
-      "anio": 2026
+      "anio": 2026,
+      "nuevo": 156000
     }
   ]
 }
