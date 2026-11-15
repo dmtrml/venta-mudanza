@@ -277,6 +277,7 @@
     },
     {
       "id": "07",
+      "video": true,
       "cat": "electro",
       "precio": 290000,
       "status": "disponible",
