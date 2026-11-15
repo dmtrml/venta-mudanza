@@ -271,7 +271,7 @@ function whenHtml(it){return it.entrega&&it.status!=='vendido'?'<div class="when
 // Доп. строки карточки: цена нового, год покупки, габариты, курьер, проверка
 function extraKv(it){
   var h='';
-  if(it.nuevo&&it.status!=='vendido') h+='<dt>'+t().nuevo+'</dt><dd>'+t().fmt(it.nuevo)+' <span class="src">('+(it.nuevo_similar?t().similar+', ':'')+'Mercado Libre, '+esc(nuevoFecha())+')</span></dd>';
+  if(it.nuevo&&it.status!=='vendido') h+='<dt>'+t().nuevo+'</dt><dd>'+t().fmt(it.nuevo)+' <span class="src">('+(it.nuevo_similar?t().similar+', ':'')+esc(it.nuevo_fuente||'Mercado Libre')+', '+esc(nuevoFecha())+')</span></dd>';
   if(it.anio) h+='<dt>'+t().anio+'</dt><dd>'+it.anio+'</dd>';
   if(it.medidas) h+='<dt>'+t().medidas+'</dt><dd>'+esc(it.medidas)+' '+t().cm+(it.peso?', '+String(it.peso).replace('.',',')+' '+t().kg:'')+' <span class="src">('+t().aprox+')</span></dd>';
   if(it.transporte) h+='<dt>'+t().cadete+'</dt><dd>'+t()[it.transporte]+'</dd>';

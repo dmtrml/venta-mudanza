@@ -652,24 +652,24 @@
       "visible": true,
       "entrega": "2027-01",
       "titulo": {
-        "es": "Monitor Redragon 27″ GM3CC27",
-        "ru": "Монитор Redragon 27″ GM3CC27"
+        "es": "Monitor gamer Redragon Jade 27″ GM3CC27, 165 Hz",
+        "ru": "Игровой монитор Redragon Jade 27″ GM3CC27, 165 Гц"
       },
       "estado": {
         "es": "Muy buen estado",
         "ru": "Хорошее"
       },
       "desc": {
-        "es": "Monitor Redragon de 27 pulgadas, modelo GM3CC27, pantalla plana, marco fino, base en V. Funciona bien. Comprado en 2025. Lo uso hasta la mudanza: se entrega en enero 2027, se reserva con seña.",
-        "ru": "Монитор Redragon 27 дюймов, модель GM3CC27, плоский экран, тонкая рамка, подставка в форме V. Работает исправно. Куплен в 2025 году. Пользуюсь до переезда: отдам в январе 2027, бронь с задатком."
+        "es": "Monitor gamer Redragon Jade GM3CC27 de 27 pulgadas: Full HD 1920×1080, 165 Hz, 1 ms, panel VA, AMD FreeSync, HDMI, montaje VESA. Pantalla plana, marco fino, base en V. Funciona bien. Comprado en 2025. Lo uso hasta la mudanza: se entrega en enero 2027, se reserva con seña.",
+        "ru": "Игровой монитор Redragon Jade GM3CC27, 27 дюймов: Full HD 1920×1080, 165 Гц, 1 мс, VA-матрица, AMD FreeSync, HDMI, крепление VESA. Плоский экран, тонкая рамка, подставка в форме V. Работает исправно. Куплен в 2025 году. Пользуюсь до переезда: отдам в январе 2027, бронь с задатком."
       },
-      "nuevo": 400000,
-      "nuevo_similar": true,
+      "nuevo": 859000,
       "medidas": "62×46×20",
       "peso": 5,
       "transporte": "auto",
       "anio": 2025,
-      "probar": true
+      "probar": true,
+      "nuevo_fuente": "Gorila Games"
     },
     {
       "id": "02",
