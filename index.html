@@ -69,6 +69,7 @@ h1 span{color:var(--accent)}
 .note{font-size:13.5px;color:var(--muted);font-weight:500;margin-left:6px}
 .vendido .amt{text-decoration:line-through}
 .off{display:inline-block;vertical-align:middle;margin-left:8px;font-size:13px;font-weight:700;letter-spacing:0;color:var(--accent);border:1px solid currentColor;border-radius:999px;padding:1px 8px}
+.when{font-size:13.5px;font-weight:600;color:var(--ink);background:var(--chip);border-radius:8px;padding:4px 9px;align-self:flex-start}
 .kv .src{color:var(--muted);font-size:13.5px}
 .more{min-height:48px}
 .actions{margin-top:auto;padding-top:8px;display:flex;gap:8px}
@@ -167,6 +168,7 @@ var T = {
     msg:'Hola, me interesa: ', estado:'Estado', num:'Artículo',
     vendido:'VENDIDO', reservado:'RESERVADO', sold:'Ya se vendió', resNote:'Reservado: podés escribir por si se libera',
     nophoto:'Fotos por WhatsApp', empty:'No hay artículos en esta categoría.',
+    whenK:'Entrega', when:function(m){return '📅 Se entrega en '+m+' · reservá con seña'},
     video:'video', nuevo:'Nuevo hoy', off:'vs. nuevo', similar:'modelo similar', anio:'Comprado en', medidas:'Medidas', aprox:'aprox.', cm:'cm', kg:'kg',
     cadete:'Para el cadete', moto:'🛵 Entra en una moto', auto:'🚗 Necesita auto', prueba:'Prueba', probar:'✅ Se puede probar al retirar',
     meses:['ene.','feb.','mar.','abr.','may.','jun.','jul.','ago.','sep.','oct.','nov.','dic.'],
@@ -181,6 +183,7 @@ var T = {
     msg:'Здравствуйте, интересует: ', estado:'Состояние', num:'Номер',
     vendido:'ПРОДАНО', reservado:'БРОНЬ', sold:'Уже продано', resNote:'Забронировано: можно написать на случай, если освободится',
     nophoto:'Фото пришлю в WhatsApp', empty:'В этой категории ничего нет.',
+    whenK:'Когда забрать', when:function(m){return '📅 Отдам в '+m+' · бронь с задатком'},
     video:'видео', nuevo:'Новый сейчас', off:'от нового', similar:'похожая модель', anio:'Куплено в', medidas:'Размеры', aprox:'примерно', cm:'см', kg:'кг',
     cadete:'Курьеру', moto:'🛵 Влезет в мото', auto:'🚗 Нужна машина', prueba:'Проверка', probar:'✅ Можно проверить при встрече',
     meses:['янв.','фев.','мар.','апр.','мая','июн.','июл.','авг.','сен.','окт.','ноя.','дек.'],
@@ -261,7 +264,10 @@ function priceHtml(it){
   return '<div class="price '+it.status+'"><span class="amt">'+(it.precio?t().fmt(it.precio):'')+'</span>'+(it.nota?'<span class="note">'+esc(L(it.nota))+'</span>':'')+
     (p>=10?'<span class="off">−'+p+'% '+t().off+'</span>':'')+'</div>';
 }
-function nuevoFecha(){var d=(data.config.nuevo_fecha||'').split('-');return d.length===2?t().meses[+d[1]-1]+' '+d[0]:''}
+function ym(s){var d=(s||'').split('-');return d.length===2?t().meses[+d[1]-1]+' '+d[0]:''}
+function nuevoFecha(){return ym(data.config.nuevo_fecha)}
+// Вещь в пользовании до отъезда: «entrega": "2027-01" — продаём сейчас под бронь
+function whenHtml(it){return it.entrega&&it.status!=='vendido'?'<div class="when">'+esc(t().when(ym(it.entrega)))+'</div>':''}
 // Доп. строки карточки: цена нового, год покупки, габариты, курьер, проверка
 function extraKv(it){
   var h='';
@@ -295,7 +301,7 @@ function renderGrid(){
   $('grid').innerHTML=list.map(function(it){
     return '<article class="card '+it.status+'" data-id="'+it.id+'" tabindex="0" aria-label="'+esc(L(it.titulo))+'">'+carousel(it,false)+
       '<div class="body"><div class="meta">'+(it.id.match(/^\d/)?'<span class="num">'+it.id+'</span>':'')+'<span>'+esc(L(it.estado))+'</span></div>'+
-      '<h2>'+esc(L(it.titulo))+'</h2>'+priceHtml(it)+
+      '<h2>'+esc(L(it.titulo))+'</h2>'+priceHtml(it)+whenHtml(it)+
       '<div class="actions">'+(it.status==='vendido'?'<button type="button" class="more">'+t().more+'</button>':waBtn(it,true))+'</div></div></article>';
   }).join('');
   wire($('grid'));
@@ -308,7 +314,7 @@ function openItem(id){
   var it=find(id); if(!it){closeModal(true);return}
   var cname=(data.categorias.filter(function(c){return c.id===it.cat})[0]);
   $('mbody').innerHTML=carousel(it,true)+'<div class="mtext"><div class="meta">'+(it.id.match(/^\d/)?'<span class="num">'+it.id+'</span>':'')+'<span>'+esc(L(cname))+'</span></div>'+
-    '<h2 id="mtitle">'+esc(L(it.titulo))+'</h2>'+priceHtml(it)+
+    '<h2 id="mtitle">'+esc(L(it.titulo))+'</h2>'+priceHtml(it)+whenHtml(it)+
     '<dl class="kv"><dt>'+t().estado+'</dt><dd>'+esc(L(it.estado))+'</dd>'+extraKv(it)+'</dl>'+
     '<p>'+esc(L(it.desc))+'</p>'+
     (it.status==='vendido'?'<p><b>'+t().sold+'</b></p>':it.status==='reservado'?'<p><b>'+t().resNote+'</b></p>':'')+

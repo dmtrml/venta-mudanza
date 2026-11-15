@@ -646,70 +646,84 @@
     {
       "id": "01",
       "cat": "electronica",
-      "precio": 210000,
+      "precio": 170000,
       "status": "disponible",
       "fotos": 2,
-      "visible": false,
+      "visible": true,
+      "entrega": "2027-01",
       "titulo": {
-        "es": "Monitor gamer Redragon 27″, Full HD, 165 Hz",
-        "ru": "Игровой монитор Redragon 27″, Full HD, 165 Гц"
+        "es": "Monitor Redragon 27″ GM3CC27",
+        "ru": "Монитор Redragon 27″ GM3CC27"
       },
       "estado": {
-        "es": "Excelente",
-        "ru": "Отличное"
-      },
-      "nota": {
-        "es": "En uso, entrega a coordinar",
-        "ru": "Пока используется, передача по договорённости"
+        "es": "Muy buen estado",
+        "ru": "Хорошее"
       },
       "desc": {
-        "es": "Monitor VA de 27″, Full HD 1920×1080, 165 Hz, respuesta declarada de 1 ms, AMD FreeSync. HDMI, DisplayPort, DVI y montaje VESA 100×100 mm. Estado excelente, sin daños. Fuente de alimentación nueva, comprada en marzo de 2026. Con uno de los dos monitores regalo un brazo de escritorio regulable en altura y giro (a acordar; confirmar compatibilidad).",
-        "ru": "Плоский VA-монитор 27″, Full HD 1920×1080, 165 Гц, заявленный отклик 1 мс, AMD FreeSync. Разъёмы HDMI, DisplayPort, DVI, крепление VESA 100×100 мм. Состояние отличное, без повреждений. Блок питания новый, куплен в марте 2026 года. С одним из двух мониторов бесплатно отдам настольный кронштейн с регулировкой высоты и поворота (по договорённости, совместимость проверить)."
-      }
+        "es": "Monitor Redragon de 27 pulgadas, modelo GM3CC27, pantalla plana, marco fino, base en V. Funciona bien. Comprado en 2025. Lo uso hasta la mudanza: se entrega en enero 2027, se reserva con seña.",
+        "ru": "Монитор Redragon 27 дюймов, модель GM3CC27, плоский экран, тонкая рамка, подставка в форме V. Работает исправно. Куплен в 2025 году. Пользуюсь до переезда: отдам в январе 2027, бронь с задатком."
+      },
+      "nuevo": 400000,
+      "nuevo_similar": true,
+      "medidas": "62×46×20",
+      "peso": 5,
+      "transporte": "auto",
+      "anio": 2025,
+      "probar": true
     },
     {
       "id": "02",
       "cat": "electronica",
-      "precio": 130000,
+      "precio": 120000,
       "status": "disponible",
       "fotos": 4,
-      "visible": false,
+      "visible": true,
+      "entrega": "2027-01",
       "titulo": {
-        "es": "Monitor Samsung 24″, Full HD, IPS, 75 Hz",
-        "ru": "Монитор Samsung 24″, Full HD, IPS, 75 Гц"
+        "es": "Monitor Samsung 24″ F24T350FH + brazo de escritorio",
+        "ru": "Монитор Samsung 24″ F24T350FH + настольный кронштейн"
       },
       "estado": {
-        "es": "Excelente",
-        "ru": "Отличное"
-      },
-      "nota": {
-        "es": "En uso, entrega a coordinar",
-        "ru": "Пока используется, передача по договорённости"
+        "es": "Muy buen estado",
+        "ru": "Хорошее"
       },
       "desc": {
-        "es": "Monitor IPS de 24″, Full HD 1920×1080, 75 Hz, HDMI, VGA, AMD FreeSync. Fabricado en noviembre de 2023. Estado excelente, sin daños. Con uno de los dos monitores regalo un brazo de escritorio regulable en altura y giro (a acordar; confirmar compatibilidad).",
-        "ru": "Монитор IPS 24″, Full HD 1920×1080, 75 Гц, HDMI, VGA, AMD FreeSync. Произведён в ноябре 2023 года. Состояние отличное, без повреждений. С одним из двух мониторов бесплатно отдам настольный кронштейн с регулировкой высоты и поворота (по договорённости, совместимость проверить)."
-      }
+        "es": "Monitor Samsung F24T350FH de 24 pulgadas: Full HD 1920×1080, 75 Hz, panel IPS, HDMI y VGA. Con su base original y, de regalo, un brazo de escritorio para monitor (sirve para 24″ y 27″). Funciona bien. Lo uso hasta la mudanza: se entrega en enero 2027, se reserva con seña.",
+        "ru": "Монитор Samsung F24T350FH, 24 дюйма: Full HD 1920×1080, 75 Гц, IPS, HDMI и VGA. С родной подставкой и в подарок настольный кронштейн для монитора (подходит для 24″ и 27″). Работает исправно. Пользуюсь до переезда: отдам в январе 2027, бронь с задатком."
+      },
+      "nuevo": 270000,
+      "medidas": "54×41×18",
+      "peso": 3.5,
+      "transporte": "auto",
+      "anio": 2025,
+      "probar": true
     },
     {
       "id": "16",
       "cat": "deportes",
-      "precio": 250000,
+      "precio": 280000,
       "status": "disponible",
       "fotos": 3,
-      "visible": false,
+      "visible": true,
+      "entrega": "2027-01",
       "titulo": {
-        "es": "Bicicleta plegable Tomaselli rodado 20, negra, talle M",
-        "ru": "Складной велосипед Tomaselli, колёса 20″, чёрный, размер M"
+        "es": "Bicicleta plegable Tomaselli rodado 20 + inflador y candado",
+        "ru": "Складной велосипед Tomaselli, колёса 20″ + насос и замок"
       },
       "estado": {
         "es": "Con detalles de uso",
         "ru": "Следы использования"
       },
       "desc": {
-        "es": "Bicicleta plegable rodado 20, negra, talle M. Anda bien. Tiene detalles de uso: algo de óxido en algunas partes, raspones y un puño de goma algo gastado. Incluye inflador y candado.",
-        "ru": "Складной велосипед с колёсами 20 дюймов, чёрный, размер M. На ходу. Есть следы использования: местами ржавчина, потёртости, немного повреждена резиновая ручка руля. В комплекте насос и замок."
-      }
+        "es": "Bicicleta plegable Tomaselli rodado 20, negra, talle M, con portaequipaje y pie de apoyo. Anda bien. Tiene detalles de uso: algo de óxido en algunas partes, raspones y un puño de goma algo gastado. Incluye inflador y candado. La uso hasta la mudanza: se entrega en enero 2027, se reserva con seña.",
+        "ru": "Складной велосипед Tomaselli, колёса 20″, чёрный, размер M, с багажником и подножкой. Едет хорошо. Есть следы использования: местами ржавчина, царапины, одна резиновая ручка потёрта. В комплекте насос и замок. Пользуюсь до переезда: отдам в январе 2027, бронь с задатком."
+      },
+      "nuevo": 420000,
+      "medidas": "80×35×65",
+      "peso": 14,
+      "transporte": "auto",
+      "anio": 2025,
+      "probar": true
     },
     {
       "id": "24",
@@ -759,6 +773,33 @@
       },
       "medidas": "200×80×8",
       "peso": 3,
+      "transporte": "auto",
+      "anio": 2026
+    },
+    {
+      "id": "28",
+      "cat": "hogar",
+      "precio": 80000,
+      "status": "disponible",
+      "fotos": 0,
+      "visible": false,
+      "entrega": "2027-01",
+      "titulo": {
+        "es": "Silla gamer Dyvan 73210, blanca",
+        "ru": "Игровое кресло Dyvan 73210, белое"
+      },
+      "estado": {
+        "es": "Muy buen estado",
+        "ru": "Хорошее"
+      },
+      "desc": {
+        "es": "Silla gamer / de escritorio Dyvan 73210, blanca, ergonómica y reclinable. Comprada en enero 2026. La uso hasta la mudanza: se entrega en enero 2027, se reserva con seña.",
+        "ru": "Игровое / офисное кресло Dyvan 73210, белое, эргономичное, с откидной спинкой. Куплено в январе 2026. Пользуюсь до переезда: отдам в январе 2027, бронь с задатком."
+      },
+      "nuevo": 200000,
+      "nuevo_similar": true,
+      "medidas": "65×65×120",
+      "peso": 18,
       "transporte": "auto",
       "anio": 2026
     }
