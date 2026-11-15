@@ -743,8 +743,8 @@
       "cat": "hogar",
       "precio": 40000,
       "status": "disponible",
-      "fotos": 0,
-      "visible": false,
+      "fotos": 2,
+      "visible": true,
       "titulo": {
         "es": "Colchón de espuma 200 × 80 × 8 cm",
         "ru": "Поролоновый матрас 200 × 80 × 8 см"
@@ -754,8 +754,8 @@
         "ru": "Хорошее"
       },
       "desc": {
-        "es": "Colchón de espuma de una plaza, 200 × 80 cm, 8 cm de alto. Liviano, ideal para invitados o para el piso. Comprado en 2026.",
-        "ru": "Поролоновый матрас 200 × 80 см, толщина 8 см. Лёгкий, подойдёт для гостей или на пол. Куплен в 2026 году."
+        "es": "Colchón de espuma de una plaza, 200 × 80 cm, 8 cm de alto, con funda beige. Liviano, ideal para invitados o para el piso. Comprado en 2026.",
+        "ru": "Поролоновый матрас 200 × 80 см, толщина 8 см, в бежевом чехле. Лёгкий, подойдёт для гостей или на пол. Куплен в 2026 году."
       },
       "medidas": "200×80×8",
       "peso": 3,
