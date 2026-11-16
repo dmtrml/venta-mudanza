@@ -53,6 +53,7 @@ h1 span{color:var(--accent)}
 .chip{flex:none;border:0;background:var(--chip);border-radius:999px;padding:8px 14px;font-size:14.5px;cursor:pointer;white-space:nowrap}
 .chip small{opacity:.6;margin-left:4px}
 .chip[aria-pressed=true]{background:var(--chip-on);color:var(--chip-on-ink)}
+.chip.free{box-shadow:inset 0 0 0 1.5px var(--chip-on);margin-right:6px}
 
 /* grid */
 .grid{display:grid;grid-template-columns:1fr;gap:18px;padding-bottom:40px}
@@ -164,7 +165,7 @@ var T = {
     h1:'Vendo todo <span>por mudanza</span>',
     lead:'Me mudo y vendo lo que no me llevo: cosas de bebé, electrodomésticos, herramientas y más. Todo usado y en buen estado.',
     facts:['📍 Retiro en Barrio Pueyrredón, Córdoba Capital','💵 Efectivo o transferencia','🛵 Sin envío, coordino con tu cadete','🏷️ Llevando 3 o más cosas: 10% de descuento en el total'],
-    all:'Todo', wa:'Escribir por WhatsApp', tg:'Escribir por Telegram', more:'Ver', back:'← Volver', share:'Compartir', copied:'Link copiado',
+    all:'Todo', free:'✅ Solo disponibles', wa:'Escribir por WhatsApp', tg:'Escribir por Telegram', more:'Ver', back:'← Volver', share:'Compartir', copied:'Link copiado',
     msg:'Hola, me interesa: ', estado:'Estado', num:'Artículo',
     vendido:'VENDIDO', reservado:'RESERVADO', sold:'Ya se vendió', resNote:'Reservado: podés escribir por si se libera',
     nophoto:'Fotos por WhatsApp', empty:'No hay artículos en esta categoría.',
@@ -179,7 +180,7 @@ var T = {
     h1:'Распродажа <span>перед переездом</span>',
     lead:'Переезжаю и продаю то, что не забираю: детские вещи, технику, инструменты и другое. Всё б/у в хорошем состоянии.',
     facts:['📍 Самовывоз: Barrio Pueyrredón, Córdoba Capital','💵 Наличные или перевод','🛵 Не доставляю, передам вашему курьеру','🏷️ От 3 вещей — скидка 10% на всё'],
-    all:'Все', wa:'Написать в WhatsApp', tg:'Написать в Telegram', more:'Подробнее', back:'← Назад', share:'Поделиться', copied:'Ссылка скопирована',
+    all:'Все', free:'✅ Только свободные', wa:'Написать в WhatsApp', tg:'Написать в Telegram', more:'Подробнее', back:'← Назад', share:'Поделиться', copied:'Ссылка скопирована',
     msg:'Здравствуйте, интересует: ', estado:'Состояние', num:'Номер',
     vendido:'ПРОДАНО', reservado:'БРОНЬ', sold:'Уже продано', resNote:'Забронировано: можно написать на случай, если освободится',
     nophoto:'Фото пришлю в WhatsApp', empty:'В этой категории ничего нет.',
@@ -194,7 +195,8 @@ var T = {
 var TG_SVG='<svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M21.9 4.3 18.7 19.5c-.2 1-.9 1.3-1.7.8l-4.8-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.5 13.3 1.8 11.8c-1-.3-1-1 .2-1.5L20.6 3.2c.9-.3 1.6.2 1.3 1.1Z"/></svg>';
 var WA_SVG='<svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>';
 
-var data=null, lang='es', cat='all', openedHere=false;
+var data=null, lang='es', cat='all', openedHere=false, onlyFree=false;
+try{onlyFree=localStorage.getItem('free')==='1'}catch(x){}
 try{ var s=localStorage.getItem('lang'); if(s==='ru'||s==='es') lang=s; }catch(e){}
 var q=new URLSearchParams(location.search).get('lang'); if(q==='ru'||q==='es') lang=q;
 
@@ -289,8 +291,14 @@ function renderHead(){
   $('foot').textContent=t().foot(fmtDate(data.config.actualizado));
   $('mclose').textContent=t().back; $('mshare').textContent=t().share;
 }
+// «Только свободные»: прячет бронь и проданное
+function pool(){return items().filter(function(i){return !onlyFree||i.status==='disponible'})}
 function renderChips(){
-  var all=items(), h='<button type="button" class="chip" data-cat="all" aria-pressed="'+(cat==='all')+'">'+t().all+'<small>'+all.length+'</small></button>';
+  var all=pool();
+  if(cat!=='all'&&!all.some(function(i){return i.cat===cat})) cat='all';
+  var nFree=items().filter(function(i){return i.status==='disponible'}).length;
+  var h='<button type="button" class="chip free" data-free="1" aria-pressed="'+onlyFree+'">'+t().free+'<small>'+nFree+'</small></button>'+
+    '<button type="button" class="chip" data-cat="all" aria-pressed="'+(cat==='all')+'">'+t().all+'<small>'+all.length+'</small></button>';
   data.categorias.forEach(function(c){
     var n=all.filter(function(i){return i.cat===c.id}).length; if(!n) return;
     h+='<button type="button" class="chip" data-cat="'+c.id+'" aria-pressed="'+(cat===c.id)+'">'+esc(L(c))+'<small>'+n+'</small></button>';
@@ -298,7 +306,7 @@ function renderChips(){
   $('chips').innerHTML=h;
 }
 function renderGrid(){
-  var list=sorted(items().filter(function(i){return cat==='all'||i.cat===cat}));
+  var list=sorted(pool().filter(function(i){return cat==='all'||i.cat===cat}));
   if(!list.length){$('grid').innerHTML='<p class="empty">'+t().empty+'</p>';return}
   $('grid').innerHTML=list.map(function(it){
     return '<article class="card '+it.status+'" data-id="'+it.id+'" tabindex="0" aria-label="'+esc(L(it.titulo))+'">'+carousel(it,false)+
@@ -349,6 +357,7 @@ document.addEventListener('click',function(e){
   var b=e.target.closest('.lang button');
   if(b){lang=b.dataset.lang;try{localStorage.setItem('lang',lang)}catch(x){}render();return}
   var c=e.target.closest('.chip');
+  if(c&&c.dataset.free){onlyFree=!onlyFree;try{localStorage.setItem('free',onlyFree?'1':'')}catch(x){}renderChips();renderGrid();return}
   if(c){cat=c.dataset.cat;renderChips();renderGrid();return}
   var m=e.target.closest('.wa,.tg');
   if(m){var it=find(m.closest('.card')?m.closest('.card').dataset.id:curHash());
