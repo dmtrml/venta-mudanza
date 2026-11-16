@@ -679,7 +679,7 @@
       "id": "02",
       "cat": "electronica",
       "precio": 120000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 4,
       "visible": true,
       "entrega": "2027-01",
