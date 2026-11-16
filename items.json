@@ -787,26 +787,61 @@
       "cat": "hogar",
       "precio": 80000,
       "status": "disponible",
-      "fotos": 0,
-      "visible": false,
-      "entrega": "2027-01",
+      "fotos": 3,
+      "visible": true,
       "titulo": {
         "es": "Silla gamer Dyvan 73210, blanca",
         "ru": "Игровое кресло Dyvan 73210, белое"
       },
       "estado": {
-        "es": "Muy buen estado",
-        "ru": "Хорошее"
+        "es": "Regular: el cuero sintético del asiento está agrietado",
+        "ru": "Среднее: на сиденье потрескался кожзам"
       },
       "desc": {
-        "es": "Silla gamer / de escritorio Dyvan 73210, blanca, ergonómica y reclinable. Comprada en enero 2026. La uso hasta la mudanza: se entrega en enero 2027, se reserva con seña.",
-        "ru": "Игровое / офисное кресло Dyvan 73210, белое, эргономичное, с откидной спинкой. Куплено в январе 2026. Пользуюсь до переезда: отдам в январе 2027, бронь с задатком."
+        "es": "Silla gamer / de escritorio Dyvan 73210, blanca y negra, reclinable, con apoyapiés retráctil, almohadón cervical y lumbar. Mecanismos y ruedas funcionan bien. El cuero sintético del asiento está agrietado en la parte delantera (ver fotos); respaldo y apoyabrazos en buen estado. Comprada en enero de 2026.",
+        "ru": "Игровое / офисное кресло Dyvan 73210, бело-чёрное, с откидной спинкой, выдвижной подставкой для ног, подушками под шею и поясницу. Механизмы и колёса работают. Кожзам на сиденье спереди потрескался (см. фото), спинка и подлокотники в хорошем состоянии. Куплено в январе 2026 года."
       },
       "medidas": "65×65×120",
       "peso": 18,
       "transporte": "auto",
       "anio": 2026,
       "nuevo": 156000
+    },
+    {
+      "id": "60",
+      "cat": "hogar",
+      "precio": 25000,
+      "status": "disponible",
+      "fotos": 5,
+      "visible": true,
+      "titulo": {
+        "es": "Organizador colgante IKEA SKUBB 6 estantes + 6 cajas SKUBB",
+        "ru": "Подвесной органайзер IKEA SKUBB на 6 полок + 6 коробок SKUBB"
+      },
+      "estado": {
+        "es": "Muy buen estado",
+        "ru": "Хорошее"
+      },
+      "desc": {
+        "es": "Organizador de tela IKEA SKUBB para colgar en el placard, 6 estantes, gris oscuro, 35 × 45 × 125 cm, se cuelga del barral con abrojos. Más el juego de 6 cajas SKUBB blancas para cajones: 2 de 28 × 28 × 13, 2 de 28 × 14 × 13 y 2 de 14 × 14 × 13 cm; tienen cierre en la base y se pliegan. IKEA no vende en Argentina. Todo junto.",
+        "ru": "Тканевый органайзер IKEA SKUBB для шкафа на 6 полок, тёмно-серый, 35 × 45 × 125 см, вешается на штангу на липучках. Плюс набор из 6 белых коробок SKUBB для ящиков: 2 шт. 28 × 28 × 13, 2 шт. 28 × 14 × 13 и 2 шт. 14 × 14 × 13 см, на дне молния, складываются. В Аргентине IKEA не продаётся. Всё вместе."
+      },
+      "links": [
+        {
+          "es": "Organizador SKUBB 6 compartimientos (IKEA Chile)",
+          "ru": "Органайзер SKUBB на 6 отделений (IKEA Чили)",
+          "u": "https://www.ikea.com/cl/es/p/skubb-organizador-con-6-compartimientos-gris-oscuro-40400001/"
+        },
+        {
+          "es": "Cajas SKUBB, set de 6 (IKEA Chile)",
+          "ru": "Коробки SKUBB, набор из 6 (IKEA Чили)",
+          "u": "https://www.ikea.com/cl/es/p/skubb-cajas-set-de-6-blanco-00428549/"
+        }
+      ],
+      "medidas": "35×45×125",
+      "peso": 1.5,
+      "transporte": "moto",
+      "anio": 2025
     }
   ]
 }

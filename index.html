@@ -170,7 +170,7 @@ var T = {
     nophoto:'Fotos por WhatsApp', empty:'No hay artículos en esta categoría.',
     whenK:'Entrega', when:function(m){return '📅 Se entrega en '+m+' · reservá con seña'},
     video:'video', nuevo:'Nuevo hoy', off:'vs. nuevo', similar:'modelo similar', anio:'Comprado en', medidas:'Medidas', aprox:'aprox.', cm:'cm', kg:'kg',
-    cadete:'Para el cadete', moto:'🛵 Entra en una moto', auto:'🚗 Necesita auto', prueba:'Prueba', probar:'✅ Se puede probar al retirar',
+    cadete:'Para el cadete', moto:'🛵 Entra en una moto', auto:'🚗 Necesita auto', prueba:'Prueba', probar:'✅ Se puede probar al retirar', links:'Modelo',
     meses:['ene.','feb.','mar.','abr.','may.','jun.','jul.','ago.','sep.','oct.','nov.','dic.'],
     foot:function(d){return 'Precios en pesos argentinos. Actualizado: '+d+'. Lo vendido queda marcado como VENDIDO.'},
     fmt:function(n){return '$'+n.toLocaleString('es-AR')}
@@ -185,7 +185,7 @@ var T = {
     nophoto:'Фото пришлю в WhatsApp', empty:'В этой категории ничего нет.',
     whenK:'Когда забрать', when:function(m){return '📅 Отдам в '+m+' · бронь с задатком'},
     video:'видео', nuevo:'Новый сейчас', off:'от нового', similar:'похожая модель', anio:'Куплено в', medidas:'Размеры', aprox:'примерно', cm:'см', kg:'кг',
-    cadete:'Курьеру', moto:'🛵 Влезет в мото', auto:'🚗 Нужна машина', prueba:'Проверка', probar:'✅ Можно проверить при встрече',
+    cadete:'Курьеру', moto:'🛵 Влезет в мото', auto:'🚗 Нужна машина', prueba:'Проверка', probar:'✅ Можно проверить при встрече', links:'Модель',
     meses:['янв.','фев.','мар.','апр.','мая','июн.','июл.','авг.','сен.','окт.','ноя.','дек.'],
     foot:function(d){return 'Цены в аргентинских песо. Обновлено: '+d+'. Проданное помечено ПРОДАНО.'},
     fmt:function(n){return n.toLocaleString('ru-RU').replace(/ /g,' ')+' ARS'}
@@ -276,6 +276,8 @@ function extraKv(it){
   if(it.medidas) h+='<dt>'+t().medidas+'</dt><dd>'+esc(it.medidas)+' '+t().cm+(it.peso?', '+String(it.peso).replace('.',',')+' '+t().kg:'')+' <span class="src">('+t().aprox+')</span></dd>';
   if(it.transporte) h+='<dt>'+t().cadete+'</dt><dd>'+t()[it.transporte]+'</dd>';
   if(it.probar) h+='<dt>'+t().prueba+'</dt><dd>'+t().probar+'</dd>';
+  // Ссылки на модель в магазине: links: [{es, ru, u}]
+  if(it.links&&it.links.length) h+='<dt>'+t().links+'</dt><dd>'+it.links.map(function(l){return '<a href="'+esc(l.u)+'" target="_blank" rel="noopener">'+esc(L(l))+' ↗</a>'}).join('<br>')+'</dd>';
   return h;
 }
 
