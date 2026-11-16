@@ -257,7 +257,7 @@
       "id": "17",
       "cat": "bebe",
       "precio": 18000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 1,
       "visible": true,
       "titulo": {
@@ -760,7 +760,7 @@
       "id": "40",
       "cat": "hogar",
       "precio": 30000,
-      "status": "reservado",
+      "status": "disponible",
       "fotos": 2,
       "visible": true,
       "titulo": {
