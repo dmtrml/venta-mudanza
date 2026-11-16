@@ -336,7 +336,7 @@
       "id": "04",
       "cat": "electro",
       "precio": 270000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 2,
       "visible": true,
       "titulo": {
@@ -626,7 +626,7 @@
       "id": "13",
       "cat": "herramientas",
       "precio": 25000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 1,
       "visible": true,
       "titulo": {
@@ -733,7 +733,7 @@
       "id": "24",
       "cat": "electronica",
       "precio": 90000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 5,
       "visible": true,
       "titulo": {
