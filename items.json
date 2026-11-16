@@ -519,7 +519,7 @@
       "id": "08",
       "cat": "cocina",
       "precio": 22000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 1,
       "visible": true,
       "titulo": {
