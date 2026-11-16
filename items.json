@@ -75,7 +75,7 @@
       "cat": "bebe",
       "precio": 60000,
       "status": "disponible",
-      "fotos": 1,
+      "fotos": 3,
       "visible": true,
       "titulo": {
         "es": "Set de psicomotricidad: escalera de 3 escalones + rampa + juguetes de regalo",
@@ -86,8 +86,8 @@
         "ru": "Хорошее"
       },
       "desc": {
-        "es": "Set de dos módulos blandos de goma espuma: escalera de tres escalones (rosa terracota) y rampa (superficie turquesa, laterales beige). Muy buen estado. De regalo, juguetes: bowling de plástico, libros infantiles, cubo Rubik y varios juguetes chicos.",
-        "ru": "Набор из двух мягких модулей: трёхступенчатая лесенка (терракотово-розовая) и наклонная горка (бирюзовый верх, бежевые боковины). Состояние хорошее. В подарок игрушки: пластиковый боулинг, детские книжки, кубик Рубика и разные мелкие игрушки."
+        "es": "Set de dos módulos blandos de goma espuma: escalera de tres escalones (rosa terracota) y rampa (superficie turquesa, laterales beige). Muy buen estado. De regalo, juguetes: bowling de plástico, libros infantiles, cubo Rubik, tubos sensoriales extensibles y varios juguetes chicos.",
+        "ru": "Набор из двух мягких модулей: трёхступенчатая лесенка (терракотово-розовая) и наклонная горка (бирюзовый верх, бежевые боковины). Состояние хорошее. В подарок игрушки: пластиковый боулинг, детские книжки, кубик Рубика, растягивающиеся трубки-поп-тьюбы и разные мелкие игрушки."
       },
       "nuevo": 145000,
       "nuevo_similar": true,
@@ -234,7 +234,7 @@
       "cat": "bebe",
       "precio": 60000,
       "status": "reservado",
-      "fotos": 2,
+      "fotos": 5,
       "visible": true,
       "titulo": {
         "es": "Corralito 150 × 150 cm + juguetes y alfombra de regalo",
@@ -304,6 +304,52 @@
       "nuevo_similar": true,
       "medidas": "30×20×10",
       "peso": 1.5,
+      "transporte": "moto"
+    },
+    {
+      "id": "63",
+      "cat": "bebe",
+      "precio": 8000,
+      "status": "disponible",
+      "fotos": 2,
+      "visible": true,
+      "titulo": {
+        "es": "Tren de arrastre con vagón encastre y bloques",
+        "ru": "Паровозик с вагоном-сортером и фигурками"
+      },
+      "estado": {
+        "es": "Buen estado",
+        "ru": "Хорошее"
+      },
+      "desc": {
+        "es": "Locomotora celeste con vagón encastre: la tapa amarilla tiene huecos de formas y adentro vienen los bloques (cubos, cilindros, triángulos, hexágonos). Se engancha y se arrastra. Buen estado, con señales de uso.",
+        "ru": "Голубой паровозик с вагоном-сортером: на жёлтой крышке отверстия разной формы, внутри фигурки (кубики, цилиндры, треугольники, шестигранники). Вагон цепляется, паровозик можно катать. Состояние хорошее, есть следы использования."
+      },
+      "nuevo": 17000,
+      "nuevo_similar": true,
+      "transporte": "moto"
+    },
+    {
+      "id": "64",
+      "cat": "bebe",
+      "precio": 8000,
+      "status": "disponible",
+      "fotos": 2,
+      "visible": true,
+      "titulo": {
+        "es": "Pizarra mágica magnética de colores con lápiz (ranita)",
+        "ru": "Магнитная доска для рисования «Лягушка» с цветными линиями и стилусом"
+      },
+      "estado": {
+        "es": "Buen estado",
+        "ru": "Хорошее"
+      },
+      "desc": {
+        "es": "Pizarra magnética en forma de ranita: se dibuja con el lápiz atado y se borra con la barra deslizante de abajo. El trazo sale en colores. Funciona perfecto.",
+        "ru": "Магнитная доска в форме лягушки: рисуют стилусом на шнурке, стирают сдвижной планкой внизу. Линии получаются цветными. Работает отлично."
+      },
+      "nuevo": 20000,
+      "nuevo_similar": true,
       "transporte": "moto"
     },
     {
