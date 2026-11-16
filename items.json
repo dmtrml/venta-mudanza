@@ -760,7 +760,7 @@
       "id": "40",
       "cat": "hogar",
       "precio": 30000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 2,
       "visible": true,
       "titulo": {
