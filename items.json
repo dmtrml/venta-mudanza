@@ -130,7 +130,7 @@
       "id": "12",
       "cat": "bebe",
       "precio": 40000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 3,
       "visible": true,
       "titulo": {
@@ -233,7 +233,7 @@
       "id": "15",
       "cat": "bebe",
       "precio": 60000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 2,
       "visible": true,
       "titulo": {
@@ -652,7 +652,7 @@
       "id": "01",
       "cat": "electronica",
       "precio": 190000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 2,
       "visible": true,
       "entrega": "2027-01",
