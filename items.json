@@ -262,16 +262,16 @@
       "fotos": 1,
       "visible": true,
       "titulo": {
-        "es": "Colchón de cuna 97 × 65 cm + sábana y 2 fundas",
-        "ru": "Детский матрас 97 × 65 см + простыня и 2 наволочки"
+        "es": "Colchón de cuna 97 × 65 cm + sábana",
+        "ru": "Детский матрас 97 × 65 см + простыня"
       },
       "estado": {
         "es": "Buen estado",
         "ru": "Хорошее"
       },
       "desc": {
-        "es": "Colchón infantil de 97 × 65 cm. Buen estado. De regalo, una sábana y 2 fundas de algodón.",
-        "ru": "Детский матрас 97 × 65 см. Состояние хорошее. В подарок простыня и 2 хлопковые наволочки."
+        "es": "Colchón infantil de 97 × 65 cm. Buen estado. De regalo, una sábana.",
+        "ru": "Детский матрас 97 × 65 см. Состояние хорошее. В подарок простыня."
       },
       "medidas": "97×65×10",
       "peso": 3,
