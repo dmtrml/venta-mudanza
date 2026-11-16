@@ -415,7 +415,7 @@
       "id": "14",
       "cat": "electro",
       "precio": 40000,
-      "status": "disponible",
+      "status": "reservado",
       "fotos": 3,
       "visible": true,
       "titulo": {
