@@ -2,7 +2,7 @@
   "config": {
     "whatsapp": "5491132471322",
     "telegram": "imdmtrv",
-    "actualizado": "2026-11-16",
+    "actualizado": "2026-11-17",
     "nuevo_fecha": "2026-11",
     "usdt": 1670
   },
@@ -357,7 +357,7 @@
       "video": true,
       "cat": "electro",
       "precio": 290000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 2,
       "visible": true,
       "titulo": {
@@ -435,7 +435,7 @@
       "id": "11",
       "cat": "electro",
       "precio": 50000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 3,
       "visible": true,
       "titulo": {
@@ -514,7 +514,7 @@
       "id": "33",
       "cat": "electro",
       "precio": 25000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 1,
       "visible": true,
       "titulo": {
@@ -540,7 +540,7 @@
       "id": "09",
       "cat": "cocina",
       "precio": 40000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 2,
       "visible": true,
       "titulo": {
@@ -619,7 +619,7 @@
       "id": "23",
       "cat": "cocina",
       "precio": 8000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 1,
       "visible": true,
       "titulo": {
