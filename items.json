@@ -181,7 +181,7 @@
       "id": "10",
       "cat": "bebe",
       "precio": 15000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 2,
       "visible": true,
       "titulo": {
@@ -461,7 +461,7 @@
       "id": "14",
       "cat": "electro",
       "precio": 40000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 3,
       "visible": true,
       "titulo": {
@@ -592,7 +592,7 @@
       "id": "19",
       "cat": "cocina",
       "precio": 20000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 1,
       "visible": true,
       "titulo": {
@@ -646,7 +646,7 @@
       "id": "21",
       "cat": "herramientas",
       "precio": 40000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 1,
       "visible": true,
       "titulo": {
@@ -833,7 +833,7 @@
       "id": "28",
       "cat": "hogar",
       "precio": 70000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 3,
       "visible": true,
       "titulo": {
@@ -858,7 +858,7 @@
       "id": "60",
       "cat": "hogar",
       "precio": 25000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 5,
       "visible": true,
       "titulo": {
