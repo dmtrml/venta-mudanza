@@ -2,7 +2,7 @@
   "config": {
     "whatsapp": "5491132471322",
     "telegram": "imdmtrv",
-    "actualizado": "2026-11-17",
+    "actualizado": "2026-11-18",
     "nuevo_fecha": "2026-11",
     "usdt": 1670
   },
@@ -47,7 +47,7 @@
     {
       "id": "05",
       "cat": "bebe",
-      "precio": 220000,
+      "precio": 190000,
       "status": "disponible",
       "fotos": 11,
       "visible": true,
