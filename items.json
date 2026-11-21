@@ -2,7 +2,7 @@
   "config": {
     "whatsapp": "5491132471322",
     "telegram": "imdmtrv",
-    "actualizado": "2026-11-19",
+    "actualizado": "2026-11-21",
     "nuevo_fecha": "2026-11",
     "usdt": 1670
   },
@@ -258,7 +258,7 @@
       "id": "17",
       "cat": "bebe",
       "precio": 18000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 1,
       "visible": true,
       "titulo": {
@@ -383,7 +383,7 @@
       "id": "04",
       "cat": "electro",
       "precio": 270000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 2,
       "visible": true,
       "titulo": {
@@ -673,7 +673,7 @@
       "id": "13",
       "cat": "herramientas",
       "precio": 25000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 1,
       "visible": true,
       "titulo": {
@@ -780,7 +780,7 @@
       "id": "24",
       "cat": "electronica",
       "precio": 90000,
-      "status": "reservado",
+      "status": "vendido",
       "fotos": 5,
       "visible": true,
       "titulo": {
