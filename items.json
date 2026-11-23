@@ -2,7 +2,7 @@
   "config": {
     "whatsapp": "5491132471322",
     "telegram": "imdmtrv",
-    "actualizado": "2026-11-21",
+    "actualizado": "2026-11-23",
     "nuevo_fecha": "2026-11",
     "usdt": 1670
   },
@@ -407,7 +407,7 @@
     {
       "id": "03",
       "cat": "electro",
-      "precio": 300000,
+      "precio": 270000,
       "status": "disponible",
       "fotos": 4,
       "visible": true,
